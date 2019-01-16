@@ -1,0 +1,12 @@
+;Clear Sky 
+;SUNLIGHT DIRECTION VECTOR
+SunDirection	= 100,100,100
+;SUNLIGHT STRENGH MULTIPLIER (DEFAULT 100)
+SunStrength     = 100
+;SUN COLOR (RGB)
+SunColor        = 140,191,255
+;SUN ROTATION
+SunRotation	= 130
+;SKYSCROLL SPEED
+SkyScrollX      = 10
+SkyScrollZ      = 10
