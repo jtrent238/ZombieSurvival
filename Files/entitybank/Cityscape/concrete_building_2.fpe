@@ -1,0 +1,65 @@
+;Saved by FPSCR Object Importer v1.000
+;header
+desc             = Concrete Building 2
+
+;visualinfo
+textured         = hangar_D.dds
+effect           = effectbank\reloaded\entity_basic.fx
+castshadow       = 0
+transparency     = 0
+
+;orientation
+model            = Concrete_building_2.x
+offx             = 0
+offy             = 0
+offz             = 0
+rotx             = 0
+roty             = 0
+rotz             = 0
+scale            = 0
+collisionmode    = 1
+defaultstatic    = 1
+materialindex    = 1
+forcesimpleobstacle = 40
+
+
+;physics shapes
+physicscount     = 5
+physics0         = "0,1734,143.250030518,760,-11.9999980927,-305.999938965,0,0,0,0"
+physics1         = "0,1770,143.249893188,760,-29.999994278,-161.999969482,0,0,0,0"
+physics2         = "0,1782,179.250015259,760,-35.9999961853,-12.0000190735,0,0,0,0"
+physics3         = "0,1830,167.250015259,760,-59.9999885559,161.999969482,0,0,0,0"
+physics4         = "0,1782,131.249938965,760,-35.9999961853,323.999938965,0,0,0,0"
+
+;identity details
+ischaracter      = 0
+hasweapon        = 
+isobjective      = 1
+cantakeweapon    = 0
+
+;statistics
+strength         = 0
+explodable       = 0
+debrisshape      = 0
+
+;ai
+aiinit           = appear.lua
+aimain           = door.lua
+aidestroy        = disappear.lua
+
+;spawn
+spawnmax         = 0
+spawndelay       = 0
+spawnqty         = 0
+
+;anim
+animmax          = 0
+anim0            = 0,0
+playanimineditor = 0
+
+;settings not understood by the exporter
+fixnewy       = 0
+isimmobile    = 1
+forcesimpleobstacle = 3
+animmax       = 0
+anim0         = 0,0

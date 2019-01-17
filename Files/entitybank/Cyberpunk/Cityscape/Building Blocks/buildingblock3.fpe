@@ -1,0 +1,34 @@
+;header
+;Created by: Good ol'Wolfie
+
+desc          = buildingblock
+;ai
+aiinit	      = appear1.fpi
+aimain	      = default.fpi
+aidestroy     = disappear1.fpi
+
+;spawn
+spawnmax      = 0
+spawndelay    = 0
+spawnqty      = 0
+
+;orientation
+
+model         = buildingblock3.x
+offx          = 0
+offy          = 0
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+defaultstatic = 1
+materialindex = 2
+collisionmode = 1
+Scale         = 150
+
+;visualinfo
+
+textured      = buildingblock3_d2.png
+;effect        = effectbank\illuminationmap\illuminationmap.fx
+castshadow    = 0
+

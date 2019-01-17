@@ -1,0 +1,39 @@
+;header
+
+desc          = Barrel 05 
+
+;ai
+aiinit	  = appear1.fpi
+aimain	  = default.fpi
+aidestroy     = disappear1.fpi
+
+;spawn
+spawnmax      = 0
+spawndelay    = 0
+spawnqty      = 0
+
+;orientation
+
+model         = barrel_v2.x
+offx          = 0
+offy          = 0
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+scale         = 100
+defaultstatic = 1
+materialindex = 3
+collisionmode = 1
+
+;statistics
+strength      = 25
+explodable    = 1
+debrisshape   = 2
+
+;visualinfo
+
+textured      = barrel_v5_D2.dds
+effect        = 
+castshadow    = 1
+

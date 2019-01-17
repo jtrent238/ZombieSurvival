@@ -1,0 +1,41 @@
+
+
+;header
+
+desc          =Falcon/Helioncorp
+
+;ai
+aiinit	      = appear1.fpi
+aimain	      = default.fpi
+aidestroy     = disappear1.fpi
+
+;spawn
+spawnmax      = 0
+spawndelay    = 0
+spawnqty      = 0
+
+;orientation
+
+model         = falconcorpbuilding.x
+offx          = 0
+offy          = 0
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+defaultstatic = 1
+materialindex = 0
+collisionmode = 1
+scale=3000
+
+;statistics
+strength      = 25
+explodable    = 1
+debrisshape   = 1
+
+;visualinfo
+
+textured      = helioncorp_d2.png
+effect        = effectbank\illuminationmap\illuminationmap.fx
+castshadow    = 1
+

@@ -1,0 +1,43 @@
+;Entity Spec
+
+;Header
+desc          = %key
+
+;AI
+aiinit	      = appear.lua
+aimain	      = key.lua
+aidestroy     = disappear.lua
+
+;Sound
+soundset      = audiobank\misc\item.wav
+
+;AIUsed
+usekey        = 
+ifused        = 
+ifusednear    = 
+
+;Spawn
+spawnmax      = 0
+spawndelay    = 0
+spawnqty      = 0
+
+;Itemproperties
+defaultstatic = 0
+materialindex = 3
+collisionmode = 0
+debrisshape   = 0
+explodable    = 0
+isimmobile    = 1
+
+;Orientation
+model         = key_iron.x
+offy          = 5
+scale         = 100
+fixnewy       = 0
+
+;Visualinfo
+textured      = key_iron_D.dds
+
+;Decals
+decalmax      = 1
+decal0        = glow

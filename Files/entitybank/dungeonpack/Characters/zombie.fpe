@@ -1,0 +1,74 @@
+;header
+
+desc          = Zombie
+;ai
+aiinit	      = appear1.fpi
+aimain        = dungeonpack\zombie.fpi
+aidestroy     = dungeonpack\cartoon1_die.fpi
+aishoot         = 
+soundset     = soul_feeder
+
+;spawn
+spawnmax      = 0
+spawndelay    = 0
+spawnqty      = 0
+
+;orientation
+model         = zombie.x
+offx          = 0
+offy          = 0
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+fixnewy       = 180
+raisefactor   = 1.2
+noragdoll     = 1
+
+;cone of sight
+coneheight    = 8
+coneangle     = 43
+
+;visualinfo
+textured      = zombie_D.dds
+effect        = 
+castshadow    = 0
+texturearray  = 0
+
+;decals
+decalmax      = 2
+decal0        = red
+decal1        = blood
+
+;identity details
+strength      = 100
+ischaracter   = 1
+isobjective   = 0
+cantakeweapon = 0
+
+
+;bodypartslimbinfo (1=head/2=body/3+4=armslr/5+6=legslr)
+limbmax       = 0
+
+;animationinfo
+animmax       = 100
+anim0         = 2,120
+anim1         = 2,120
+anim2         = 186,399 
+anim3         =  186,399
+anim4         =  186,399 
+anim5         =  186,399 
+anim6         =  186,399 
+anim7         =  186,399 
+anim8         =  186,399 
+anim9         =  186,399
+anim10         = 0,1
+anim11        = 465,490
+anim12        = 465,490
+anim13         = 245,274
+
+anim14         = 404,452
+
+anim96        = 529,559
+anim97        = 494,520
+

@@ -1,0 +1,28 @@
+;header
+desc          = sign_square_firstaid
+
+;visualinfo
+textured      = sign_square_firstaid_D.dds
+effect        = effectbank\reloaded\entity_basic.fx
+transparency  = 6
+castshadow    = 0
+
+;orientation
+model         = sign_square_large.x
+offx          = 0
+offy          = 0
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+defaultstatic = 1
+defaultheight = 50
+materialindex = 2
+collisionmode = 0
+
+;statistics
+strength      = 25
+explodable    = 0
+
+;ai
+aimain	      = default.lua

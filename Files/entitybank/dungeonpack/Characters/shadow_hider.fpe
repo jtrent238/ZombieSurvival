@@ -1,0 +1,75 @@
+;header
+
+desc          = Shadow hider
+;ai
+aiinit	      = appear1.fpi
+aimain        = dungeonpack\shadow_hider.fpi
+aidestroy     = dungeonpack\cartoon1_die.fpi
+aishoot         = 
+soundset     = shadow_hider
+
+;spawn
+spawnmax      = 0
+spawndelay    = 0
+spawnqty      = 0
+
+;orientation
+model         = shadow_hider.x
+offx          = 0
+offy          = 0
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+fixnewy       = 180
+raisefactor   = 1.2
+noragdoll     = 1
+
+;cone of sight
+coneheight    = 8
+coneangle     = 43
+
+;visualinfo
+textured      = shadow_hider_D.dds
+effect        = 
+castshadow    = 0
+texturearray  = 0
+
+;decals
+decalmax      = 2
+decal0        = red
+decal1        = blood
+
+;identity details
+strength      = 100
+ischaracter   = 1
+isobjective   = 0
+cantakeweapon = 0
+
+
+;bodypartslimbinfo (1=head/2=body/3+4=armslr/5+6=legslr)
+limbmax       = 0
+
+;animationinfo
+animmax       = 100
+anim0         = 74,416
+anim1         = 74,416
+anim2         = 0,68 
+anim3         =  0,68
+anim4         =  0,68 
+anim5         =  0,68 
+anim6         =  0,68 
+anim7         =  0,68 
+anim8         =  0,68 
+anim9         =  0,68
+anim10         = 0,1
+anim11        = 517,567
+anim12        = 517,567
+anim13         = 568,620
+
+anim14         = 404,452
+
+anim94        = 478,517
+anim95        = 417,452
+anim96        = 450,479
+

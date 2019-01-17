@@ -1,0 +1,28 @@
+;header
+desc          = spray_square_cross
+
+;visualinfo
+textured      = spray_square_cross_D.dds
+effect        = effectbank\reloaded\entity_basic.fx
+transparency  = 6
+castshadow    = 0
+
+;orientation
+model         = spray_square.x
+offx          = 0
+offy          = 0
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+defaultstatic = 1
+defaultheight = 50
+materialindex = 0
+collisionmode = 0
+
+;statistics
+strength      = 25
+explodable    = 0
+
+;ai
+aimain	      = default.lua

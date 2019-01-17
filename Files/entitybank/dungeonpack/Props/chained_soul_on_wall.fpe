@@ -1,0 +1,52 @@
+;header
+
+desc          = Chained Soul on Wall
+;ai
+aiinit	      = 
+aimain        = 
+aidestroy     = 
+aishoot         = 
+soundset     = female
+
+;spawn
+spawnmax      = 0
+spawndelay    = 0
+spawnqty      = 0
+
+;orientation
+model         = chained_soul_on_wall.x
+offx          = 0
+offy          = 0
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+fixnewy       = 180
+raisefactor   = 1.2
+
+;cone of sight
+coneheight    = 8
+coneangle     = 43
+
+;visualinfo
+textured      = chained_soul_D.dds
+effect        = 
+castshadow    = 0
+texturearray  = 0
+
+;decals
+decalmax      = 2
+decal0        = red
+decal1        = blood
+
+;identity details
+strength      = 100
+ischaracter   = 1
+isobjective   = 0
+cantakeweapon = 0
+
+
+;bodypartslimbinfo (1=head/2=body/3+4=armslr/5+6=legslr)
+limbmax       = 0
+
+

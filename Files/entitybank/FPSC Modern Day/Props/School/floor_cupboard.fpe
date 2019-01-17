@@ -1,0 +1,35 @@
+
+;header
+
+desc          = Floor Cupboard
+;ai
+aiinit	      = appear1.fpi
+aimain	      = default.fpi
+aidestroy     = disappear1.fpi
+
+;spawn
+spawnmax      = 0
+spawndelay    = 0
+spawnqty      = 0
+
+;orientation
+
+model         = floor_cupboard.x
+offx          = 0
+offy          = 0
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+forwardfacing = 1
+materialindex = 4
+defaultstatic = 0
+isimmobile    = 1
+collisionmode = 2
+
+;visualinfo
+
+textured      = floor_cupboard.dds
+effect        = 
+castshadow    = 0
+

@@ -1,0 +1,41 @@
+;header
+
+desc          = Bus 01 PART 2 (Glass)
+
+;ai
+aiinit	  = appear1.fpi
+aimain	  = Desert Storm Pack\coloff.fpi
+aidestroy     = disappear1.fpi
+
+;spawn
+spawnmax      = 0
+spawndelay    = 0
+spawnqty      = 0
+
+;orientation
+
+model         = bus_glass.x
+offx          = 0
+offy          = 0
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+scale         = 100
+defaultstatic = 0
+collisionmode = 1
+materialindex = 0
+reducetexture =-1
+isimmobile    = 1
+
+;statistics
+strength      = 0
+explodable    = 0
+debrisshape   = 3
+
+;visualinfo
+
+textured      = bus_glass_D2.dds
+effect        = 
+castshadow    = 1
+

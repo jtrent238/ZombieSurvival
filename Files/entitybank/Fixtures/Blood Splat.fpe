@@ -1,0 +1,30 @@
+;header
+desc          = Blood Splat
+
+
+;visualinfo
+textured      = Blood_Decal_1_D.dds
+effect        = effectbank\reloaded\entity_basic.fx
+castshadow    = -1
+transparency  = 6
+
+;orientation
+model         = Blood Splat.x
+offx          = 0
+offy          = 0
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+defaultstatic = 1
+defaultheight = 1
+materialindex = 1
+collisionmode = 0
+forcesimpleobstacle = -1
+
+;statistics
+strength      = 0
+explodable    = 0
+
+;ai
+aimain	      = default.lua

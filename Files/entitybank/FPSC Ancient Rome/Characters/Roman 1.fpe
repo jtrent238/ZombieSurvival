@@ -1,0 +1,173 @@
+;header
+
+desc          = Roman Soldier
+;ai
+
+
+aimain	      = Classics\ai_classiccharacter_roman.lua
+
+soundset     = roman
+
+;spawn
+spawnmax      = 0
+spawndelay    = 0
+spawnqty      = 0
+
+;orientation
+model         = roman0.x
+offx          = 0
+offy          = 0
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+fixnewy       = 0
+raisefactor   = 1.2
+
+
+skipfvfconvert = 1
+
+;cone of sight
+coneheight    = 33
+coneangle     = 43
+
+;visualinfo
+textured      = 
+effect        = effectbank\reloaded\character_basic.fx
+castshadow    = 0
+texturearray  = 0
+
+;decals
+decalmax      = 2
+decal0        = red
+decal1        = blood
+
+;identity details
+strength      = 100
+ischaracter   = 1
+isobjective   = 0
+cantakeweapon = 0
+
+
+playanimineditor = 1
+
+;bodypartslimbinfo (1=head/2=body/3+4=armslr/5+6=legslr)
+limbmax       = 0
+
+;animationinfo
+animmax       = 100
+anim0         = 0,246
+anim1         = 0,246
+anim2         = 247,278 
+anim3         = 247,278 
+anim4         = 247,278 
+anim5         = 247,278 
+anim6         = 247,278 
+anim7         = 247,278 
+anim8         = 247,278 
+anim9         = 247,278 
+anim10         = 0,1
+anim11        = 628,650
+anim12        = 628,650
+anim13         = 650,680
+anim14         = 279,296
+
+anim94        = 412,436
+anim95        = 436,460
+anim96        = 460,484
+anim97        = 484,514
+anim98        = 538,565
+anim99        = 512,536
+
+
+
+;AIAnims
+csi_relaxed1 			= 0,246
+csi_relaxed2 			= 0,246
+csi_relaxedmovefore 	= 247,278 
+csi_cautious 			= 0,246
+csi_cautiousmovefore 	= 247,278 
+csi_unarmed1 			= 0,246
+csi_unarmed2 			= 0,246
+csi_unarmedconversation	= 
+csi_unarmedexplain 		= 
+csi_unarmedpointfore 	= 
+csi_unarmedpointback 	= 
+csi_unarmedpointleft 	= 
+csi_unarmedpointright 	= 
+csi_unarmedmovefore 	= 247,278 
+csi_unarmedmoverun 		= 279,296
+csi_unarmedstairascend 	= 
+csi_unarmedstairdecend 	= 
+csi_unarmedladderascend1= 
+csi_unarmedladderascend2=  
+csi_unarmedladderascend3= 
+csi_unarmedladderdecend1= 
+csi_unarmedladderdecend2= 
+csi_unarmeddeath 		= 
+csi_unarmedimpactfore 	= 
+csi_unarmedimpactback 	= 
+csi_unarmedimpactleft 	= 
+csi_unarmedimpactright 	= 
+csi_inchair 			= 
+csi_inchairsit 			= 
+csi_inchairgetup 		= 
+csi_swim 				= 
+csi_swimmovefore 		= 
+csi_stoodnormal			= 2720,2742
+csi_stoodrocket 		= 
+csi_stoodfidget1 		= 2720,2742
+csi_stoodfidget2 		= 2720,2742
+csi_stoodfidget3 		= 2720,2742
+csi_stoodfidget4 		= 2720,2742
+csi_stoodstartled 		= 
+csi_stoodpunch 			= 412,436
+csi_stoodkick 			= 412,436
+csi_stoodmovefore 		= 2500,2524
+csi_stoodmoveback 		= 2500,2524
+csi_stoodmoveleft 		= 2685,2716
+csi_stoodmoveright 		= 2685,2716
+csi_stoodstepleft 		=
+csi_stoodstepright 		= 
+csi_stoodstrafeleft 	= 
+csi_stoodstraferight 	= 
+csi_stoodturnleft 		= 
+csi_stoodsubtleturnleft = 
+csi_stoodvault 			= 
+csi_stoodmoverun 		= 279,296
+csi_stoodmoverunleft 	= 279,296
+csi_stoodmoverunright 	= 279,296
+csi_stoodreload 		= 
+csi_stoodreloadrocket 	= 
+csi_stoodwave 			= 
+csi_stoodtoss 			= 
+csi_stoodfirerocket 	= 
+csi_stoodincoverleft 	= 
+csi_stoodincoverpeekleft	= 
+csi_stoodincoverthrowleft 	= 
+csi_stoodincoverright 	= 
+csi_stoodincoverpeekright 	= 
+csi_stoodincoverthrowright 	= 
+csi_crouchidlenormal1 	= 
+csi_crouchidlenormal2 	= 
+csi_crouchidlerocket 	= 
+csi_crouchdown 			= 
+csi_crouchdownrocket 	= 
+csi_crouchrolldown 		= 
+csi_crouchrollup		= 
+csi_crouchmovefore 		= 
+csi_crouchmoveback 		= 
+csi_crouchmoveleft 		= 
+csi_crouchmoveright 	= 
+csi_crouchmoverun 		= 
+csi_crouchreload 		= 
+csi_crouchreloadrocket 	= 
+csi_crouchwave 			= 
+csi_crouchtoss 			= 
+csi_crouchfirerocket 	= 
+csi_crouchimpactfore 	= 
+csi_crouchimpactback 	= 
+csi_crouchimpactleft 	= 
+csi_crouchimpactright 	= 
+csi_crouchgetup 		= 
+csi_crouchgetuprocket 	= 

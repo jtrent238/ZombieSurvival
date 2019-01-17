@@ -1,0 +1,31 @@
+
+;header
+
+desc          = Torch
+aiinit	      = appear1.fpi
+aimain	      = default.fpi
+aidestroy     = disappear1.fpi
+
+;spawn
+spawnmax      = 0
+spawndelay    = 0
+spawnqty      = 0
+
+;orientation
+
+model         = torch.x
+offy          = 0
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+defaultstatic = 1
+materialindex = 3
+collisionmode = 1
+
+;visualinfo
+
+textured      = torch1.dds
+effect        = 
+castshadow    = 0
+

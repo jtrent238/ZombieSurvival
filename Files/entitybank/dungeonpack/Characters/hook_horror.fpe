@@ -1,0 +1,73 @@
+;header
+
+desc          = Hook Horror
+;ai
+aiinit	      = appear1.fpi
+aimain        = dungeonpack\hook_horror.fpi
+aidestroy     = dungeonpack\cartoon1_die.fpi
+aishoot         = 
+soundset     = devourer
+
+;spawn
+spawnmax      = 0
+spawndelay    = 0
+spawnqty      = 0
+
+;orientation
+model         = hook_horror.x
+offx          = 0
+offy          = 0
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+fixnewy       = 175
+raisefactor   = -3
+noragdoll     = 1
+
+;cone of sight
+coneheight    = 8
+coneangle     = 43
+
+;visualinfo
+textured      = hook_horror_D.dds
+effect        = 
+castshadow    = 0
+texturearray  = 0
+
+;decals
+decalmax      = 2
+decal0        = red
+decal1        = blood
+
+;identity details
+strength      = 100
+ischaracter   = 1
+isobjective   = 0
+cantakeweapon = 0
+
+
+;bodypartslimbinfo (1=head/2=body/3+4=armslr/5+6=legslr)
+limbmax       = 0
+
+;animationinfo
+animmax       = 100
+anim0         = 91,179
+anim1         = 91,179
+anim2         = 183,224 
+anim3         =  183,224
+anim4         =  183,224 
+anim5         =  183,224 
+anim6         =  183,224 
+anim7         =  183,224 
+anim8         =  183,224 
+anim9         =  183,224
+anim10         = 0,1
+anim11        = 272,302
+anim12        = 272,302
+anim13         = 311,336
+anim14         = 225,268
+
+anim94        = 0,29
+anim95        = 30,58
+anim96        = 61,90

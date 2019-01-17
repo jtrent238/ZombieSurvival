@@ -1,0 +1,33 @@
+;header
+desc          = Floor Long Dirty
+
+;ai
+aimain	      = default.lua
+
+;orientation
+model         = Floor_long_l.x
+offx          = 0
+offy          = 0
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+scale         = 0
+fixnewy       = 0
+defaultstatic = 1
+materialindex = 1
+collisionmode = 0
+strength      = 0
+isimmobile    = 1
+soundset      = 
+soundset1     = 
+
+;visualinfo
+textured      = Floor_long_D.dds
+effect        = effectbank\reloaded\entity_basic.fx
+castshadow    = 0
+
+;Animationinfo
+animmax       = 0
+anim0         = 0,0
+

@@ -1,0 +1,72 @@
+;header
+
+desc          = Chained Soul
+;ai
+aiinit	      = appear1.fpi
+aimain        = dungeonpack\chained_soul.fpi
+aidestroy     = dungeonpack\cartoon1_die.fpi
+aishoot         = 
+soundset     = chained_soul
+
+;spawn
+spawnmax      = 0
+spawndelay    = 0
+spawnqty      = 0
+
+;orientation
+model         = chained_soul.x
+offx          = 0
+offy          = 0
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+fixnewy       = 180
+raisefactor   = 1.2
+noragdoll     = 1
+
+;cone of sight
+coneheight    = 8
+coneangle     = 43
+
+;visualinfo
+textured      = chained_soul_D.dds
+effect        = 
+castshadow    = 0
+texturearray  = 0
+
+;decals
+decalmax      = 2
+decal0        = red
+decal1        = blood
+
+;identity details
+strength      = 100
+ischaracter   = 1
+isobjective   = 0
+cantakeweapon = 0
+
+
+;bodypartslimbinfo (1=head/2=body/3+4=armslr/5+6=legslr)
+limbmax       = 0
+
+;animationinfo
+animmax       = 100
+anim0         = 0,32
+anim1         = 0,32
+anim2         = 32,65 
+anim3         =  32,65
+anim4         =  32,65 
+anim5         =  32,65 
+anim6         =  32,65 
+anim7         =  32,65 
+anim8         =  32,65 
+anim9         =  32,65
+anim10         = 0,1
+anim11        = 93,108
+anim12        = 93,108
+anim13         = 0,32
+
+
+anim96        = 64,93
+anim97       = 64,93

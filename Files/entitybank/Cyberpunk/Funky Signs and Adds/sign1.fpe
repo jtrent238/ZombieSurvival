@@ -1,0 +1,45 @@
+;header
+desc          = sign
+
+;ai
+aiinit        = Appear1.fpi
+aimain        = Default.fpi
+aidestroy     = Disappear1.fpi
+
+;spawn
+spawnmax      = 0
+spawndelay    = 0
+spawnqty      = 0
+
+;orientation
+
+model         = sign1.x
+offx          = 0
+offy          = 0
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+scale         = 100
+defaultstatic = 1
+materialindex = 3
+collisionmode = 1
+strength      = 0
+
+;visualinfo
+
+textured      = sign1_D2.png
+effect        = effectbank\illuminationmap\illuminationmap.fx
+castshadow    = 1
+
+;Animationinfo
+
+
+
+
+
+
+
+
+
+

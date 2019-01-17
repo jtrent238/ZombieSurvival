@@ -1,0 +1,60 @@
+;header
+
+desc          = Horse
+;ai
+
+aimain        = default.lua
+
+;spawn
+spawnmax      = 0
+spawndelay    = 0
+spawnqty      = 0
+
+;orientation
+model         = horse.x
+offx          = 0
+offy          = 0
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+
+raisefactor   = 1
+RAGDOLL=0
+
+
+;visualinfo
+textured      = horse_D.dds
+effect        = effectbank\reloaded\entity_basic.fx
+castshadow    = 0
+texturearray  = 0
+scale = 90
+
+
+;decals
+decalmax      = 2
+decal0        =
+decal1        = 
+materialindex = 1
+
+;identity details
+strength      = 1000
+ischaracter   = 0
+isobjective   = 0
+cantakeweapon = 0
+isimmobile    = 1
+collisionmode = 1
+
+
+
+;bodypartslimbinfo (1=head/2=body/3+4=armslr/5+6=legslr)
+limbmax       = 0
+
+soundset = 
+soundset1 =
+
+;animationinfo
+animmax       = 2
+anim0         = 0,84
+anim1         = 0,84
+playanimineditor = 1

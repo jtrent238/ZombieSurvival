@@ -1,0 +1,207 @@
+;header
+
+desc          = Magnason (Unarmed)
+
+;ai
+
+aimain	      = classics\ai_classiccharacter_magnason1.lua
+
+
+soundset      = monster
+
+;spawn
+spawnmax      = 0
+spawndelay    = 0
+spawnqty      = 0
+
+;orientation
+model         = magnason.X
+offx          = 0
+offy          = 0
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+
+scale         = 100
+fixnewy       = 0
+skipfvfconvert = 1
+ragdoll       = 1
+
+;cone of sight
+attackrange   = 600
+coneheight    = 53
+coneangle     = 50
+
+;visualinfo
+textured      = magnason_1_D.DDS
+effect        = effectbank\reloaded\character_basic.fx
+castshadow    = 0
+;texturearray  = 2
+
+;decals
+decalmax      = 2
+decal0        = red
+decal1        = blood
+
+;identity details
+strength      = 100
+ischaracter   = 1
+hasweapon     = 
+isobjective   = 0
+cantakeweapon = 1
+
+;bodypartslimbinfo (1=head/2=body/3+4=armslr/5+6=legslr)
+limbmax       = 0
+
+playanimineditor = 1
+
+
+;animationinfo
+animmax       = 100
+anim0         = 2499,2569
+anim1         = 210,234
+anim2         = 235,259
+anim3         = 260,279
+anim4         = 280,299
+anim5         = 300,318
+anim6         = 319,355
+anim7         = 160,189
+anim8         = 330,355
+anim11        = 0,19
+anim12        = 20,39
+anim13        = 493,522
+anim14        = 40,59
+anim15        = 60,79
+anim16        = 523,552
+anim17        = 120,139
+anim18        = 140,159
+anim20        = 80,99
+anim21        = 100,119
+anim31        = 356,380
+anim32        = 381,405
+anim33        = 381,405
+anim34        = 381,405
+anim35        = 381,405
+anim36        = 406,442
+anim40        = 443,462
+anim41        = 463,492
+anim50        = 553,572
+anim51        = 573,597
+anim52        = 598,622
+anim53        = 623,642
+anim54        = 643,662
+anim55        = 663,681
+anim56        = 682,731
+anim57        = 160,189
+anim61        = 0,19
+anim62        = 20,39
+anim63        = 882,911
+anim64        = 40,59
+anim65        = 60,79
+anim66        = 912,941
+anim67        = 120,139
+anim68        = 140,159
+anim70        = 80,99
+anim71        = 100,119
+anim81        = 732,756
+anim82        = 757,781
+anim83        = 757,781
+anim84        = 757,781
+anim85        = 757,781
+anim86        = 782,831
+anim90        = 832,851
+anim91        = 852,881
+
+
+
+;character animation (reference only)
+csi_relaxed1 			= 210,234
+csi_relaxed2 			= 210,234
+csi_relaxedmovefore 		= 235,259
+csi_cautious 			= 2499,2569
+csi_cautiousmovefore 		= 235,259
+csi_unarmed1 			= 210,234
+csi_unarmed2 			= 210,234
+csi_unarmedconversation		= 
+csi_unarmedexplain 		= 
+csi_unarmedpointfore 		= 
+csi_unarmedpointback 		= 
+csi_unarmedpointleft 		= 
+csi_unarmedpointright 		= 
+csi_unarmedmovefore 		= 235,259
+csi_unarmedmoverun 		= 235,259
+csi_unarmedstairascend 		= 
+csi_unarmedstairdecend 		= 
+csi_unarmedladderascend1 	= 
+csi_unarmedladderascend2 	= 
+csi_unarmedladderascend3 	= 
+csi_unarmedladderdecend1 	= 
+csi_unarmedladderdecend2 	= 
+csi_unarmeddeath 		= 2,57
+csi_unarmedimpactfore 		= 
+csi_unarmedimpactback 		= 
+csi_unarmedimpactleft 		= 
+csi_unarmedimpactright 		= 
+csi_inchair 			= 
+csi_inchairsit 			= 
+csi_inchairgetup 		= 
+csi_swim 			= 
+csi_swimmovefore 		= 
+csi_stoodnormal			= 210,234
+csi_stoodrocket 		= 
+csi_stoodfidget1 		= 210,234
+csi_stoodfidget2 		= 210,234
+csi_stoodfidget3 		= 210,234
+csi_stoodfidget4 		= 210,234
+csi_stoodstartled 		= 
+csi_stoodpunch 			= 2561,2600
+csi_stoodkick 			= 
+csi_stoodmovefore 		= 2499,2528
+csi_stoodmoveback 		= 2499,2528
+csi_stoodmoveleft 		= 2499,2528
+csi_stoodmoveright 		= 2499,2528
+csi_stoodstepleft 		=
+csi_stoodstepright 		= 
+csi_stoodstrafeleft 		= 
+csi_stoodstraferight 		= 
+csi_stoodturnleft 		= 
+csi_stoodsubtleturnleft 	= 
+csi_stoodvault 			= 
+csi_stoodmoverun 		= 235,259
+csi_stoodmoverunleft 		= 300,318
+csi_stoodmoverunright 		= 300,318
+csi_stoodreload 		= 
+csi_stoodreloadrocket 		= 
+csi_stoodwave 			= 
+csi_stoodtoss 			= 683,726
+csi_stoodfirerocket 		= 
+csi_stoodincoverleft 		= 
+csi_stoodincoverpeekleft 	= 
+csi_stoodincoverthrowleft 	= 
+csi_stoodincoverright 		= 
+csi_stoodincoverpeekright 	= 
+csi_stoodincoverthrowright 	= 
+csi_crouchidlenormal1 		= 
+csi_crouchidlenormal2 		= 
+csi_crouchidlerocket 		= 
+csi_crouchdown 			= 
+csi_crouchdownrocket 		= 
+csi_crouchrolldown 		= 
+csi_crouchrollup		= 
+csi_crouchmovefore 		= 
+csi_crouchmoveback 		= 
+csi_crouchmoveleft 		= 
+csi_crouchmoveright 		= 
+csi_crouchmoverun 		= 
+csi_crouchreload 		= 
+csi_crouchreloadrocket 		= 
+csi_crouchwave 			= 
+csi_crouchtoss 			= 
+csi_crouchfirerocket 		= 
+csi_crouchimpactfore 		= 
+csi_crouchimpactback 		= 
+csi_crouchimpactleft 		= 
+csi_crouchimpactright 		= 
+csi_crouchgetup 		= 
+csi_crouchgetuprocket 		= 

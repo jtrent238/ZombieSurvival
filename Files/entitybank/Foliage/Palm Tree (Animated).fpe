@@ -1,0 +1,42 @@
+;header
+desc          = Palm Tree (Animated)
+
+;visualinfo
+textured      = palm tree animated_D.dds
+effect        = effectbank\reloaded\character_basic.fx
+castshadow    = 0
+transparency  = 1
+cullmode      = 1
+
+;orientation
+model         = palm tree animated.X
+offx          = 0
+offy          = 0
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+defaultstatic = 0
+materialindex = 3
+collisionmode = 51
+collisionscaling = 100
+isimmobile    = 1
+resetlimbmatrix = 1
+
+;statistics
+strength      = 25
+explodable    = 0
+debrisshape   = 1
+
+;ai
+aimain	      = default.lua
+
+;spawn
+spawnmax      = 0
+spawndelay    = 0
+spawnqty      = 0
+
+;anim
+animmax       = 1
+anim0         = 0,2000
+playanimineditor = 1

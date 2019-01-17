@@ -1,0 +1,47 @@
+
+;header
+desc          = A Giant billboarded mountain
+
+;ai
+aiinit        = Appear1.fpi
+aimain        = Default.fpi
+aidestroy     = Disappear1.fpi
+
+;spawn
+spawnmax      = 1
+spawndelay    = 0
+spawnqty      = 1
+
+;orientation
+
+model         = stripperplane1.x
+offx          = 0
+offy          = 0
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+scale         = 100
+defaultstatic = 1
+materialindex = 0
+collisionmode = 0
+strength      = 0
+
+;visualinfo
+
+textured      = stripper3.png
+castshadow    = 0
+
+;Animationinfo
+
+
+
+
+
+
+
+
+
+
+
+

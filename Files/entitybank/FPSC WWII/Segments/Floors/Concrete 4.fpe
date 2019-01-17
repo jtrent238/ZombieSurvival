@@ -1,0 +1,33 @@
+;header
+desc          = Concrete 4
+;visualinfo
+textured      = F_i_01_D2.dds
+effect        = effectbank\reloaded\entity_basic.fx
+castshadow    = 0
+
+;orientation
+model         = floor_a.X
+offx          = 0
+offy          = 0
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+defaultstatic = 1
+materialindex = 2
+collisionmode = 1
+
+;statistics
+strength      = 25
+explodable    = 0
+debrisshape   = 1
+transparency  = 0
+forcesimpleobstacle = 3
+
+;ai
+aimain	      = default.lua
+
+;spawn
+spawnmax      = 0
+spawndelay    = 0
+spawnqty      = 0

@@ -1,0 +1,35 @@
+;header
+desc          = Tumbleweed (Small)
+
+;visualinfo
+textured      = tumbleweed_D.dds
+effect        = effectbank\reloaded\entity_basic.fx
+castshadow    = 0
+cullmode      = 1
+
+;orientation
+model         = tumbleweed (small).X
+offx          = 0
+offy          = 0
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+defaultstatic = 0
+materialindex = 3
+collisionmode = 11
+
+;statistics
+strength      = 25
+explodable    = 0
+debrisshape   = 1
+
+;ai
+aimain	      = default.lua
+
+;spawn
+spawnmax      = 0
+spawndelay    = 0
+spawnqty      = 0
+
+
