@@ -1,0 +1,112 @@
+;Knife weapon spec
+
+;Mesh, Textures and Animation by BSP (c)2011-2012 All Rights Reserved
+;requires FPS Creator 1.18 or higher
+;email: dfsnake@gmail.com
+;website: http://bs-productions.cwahi.net/
+
+;GUN Model File Requirements
+
+;GUN Settings
+
+muzzleflash    = 0
+muzzlesize     = 0
+brass          = 4
+smoke          = 1
+damage         = 200
+damagetype     = 2
+scorchtype     = 3
+reloadqty      = 0
+iterate        = 0
+accuracy       = 1
+range	       = 60
+
+;//GUN Visuals
+textured		= gun_D.dds
+texturen		= gun_N.dds
+textures		= gun_S.dds
+effect		= effectbank\ps_2_0\bumpent.fx
+transparency  = 1
+weapontype    = 1
+
+;GUN Sounds
+sound1	       = fire.ogg
+sound2	       = take.ogg
+sound3	       = hide.ogg
+fireloop       = 4000
+
+;HUD muzzleflash position
+
+horiz          = 4.5
+vert           = -7
+forward        = 5
+alignx         = 27
+aligny         = -7
+alignz         = 150
+
+zoomalignx	= 0
+zoomaligny	= -7
+zoomalignz	= 30
+altalignx		= 13.5
+altaligny		= -9.5
+altalignz		= 100
+alt zoomalignx	= 0
+alt zoomaligny	= -6
+alt zoomalignz	= 40
+
+;HUD animation frames list
+
+keyframe ratio = 1
+select         = 0,14
+Idle           = 16,64
+Move           = 66,94
+start fire     = 96,106
+end fire       = 107,114
+run            = 66,94
+putaway	       = 116,129
+
+;HUD sound frames list
+
+soundframes    = 3
+sframe0        = 107,1
+sframe1        = 1,2
+sframe3        = 124,3
+
+disablerunandshoot = 1
+firerate = 6
+zoomto = 14,14
+zoom idle = 16,64
+zoom move = 66,94
+zoom start fire = 96,99
+zoom end fire = 100,114
+zoomfrom = 14,14
+simplezoom = 1
+simplezoomacc = 1
+simplezoomy = 0.1
+simplezoomx = -0.2
+simplezoomanim = 1
+simplezoomflash = 1
+zoomalignx         = -2
+zoomaligny         = -15
+zoomalignz         = 150
+nofullreload = 1
+chamberedround	= 0
+simplezoomspeed=6
+runy = -7
+runaccuracy = 60
+forcezoomout =1
+recoily = 50
+recoilyreturn = 85
+recoilxreturn = 80
+zoomrecoily = 10
+zoomrecoilyreturn = 90
+zoomrecoilx = 1.5
+zoomrecoilxreturn = 95
+gunlagspeed = 9
+gunlagxmax =3
+gunlagymax = 3
+zoomgunlagspeed = 6
+zoomgunlagxmax = 4
+zoomgunlagymax = 6
+zoomwalkspeed = 0.4
+zoomturnspeed = 0.15

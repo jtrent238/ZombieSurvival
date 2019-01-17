@@ -1,0 +1,148 @@
+;Autoslug weapon spec
+
+Weapon rerigged and animated by Joakim Olsson
+Hands edited by Joakim after Sebastian Kim's basemesh
+
+;GUN Model File Requirements
+
+;GUN Settings
+
+muzzleflash    = 4
+muzzlesize     = 200
+brass          = 0
+smoke          = 1
+damage         = 15
+damagetype     = 2
+scorchtype     = 3
+reloadqty      = 16
+iterate        = 10
+accuracy       = 15
+
+;GUN Visuals
+textured      = 
+effect        = effectbank\phong_bump_specular\phong_bump_specular.fx
+transparency  = 2
+weapontype    = 2
+
+poolammo       = autoslug
+
+;GUN Sounds
+sound1	       = fire.wav
+sound2	       = reload.wav
+sound3         = dryfire.wav
+sound4         = cock.wav 
+sound5         =
+fireloop       = 7000
+
+;HUD muzzleflash position
+horiz          = 3
+vert           = -4
+forward        = -10
+alignx         = 20
+aligny         = -10
+alignz         = 140
+
+;HUD animation frames list
+
+keyframe ratio = 1
+
+select         = 8,17
+Idle           = 18,49
+Move           = 54,70
+Start fire     = 72,77
+end fire       = 78,86
+reload         = 88,130
+;reload		= 139,198
+
+useempty = 1
+empty reload = 139,198
+
+putaway	       = 1026,1033
+
+run 		= 586,604
+
+;HUD sound frames list
+
+soundframes    = 4
+sframe0        = 76,1
+sframe1        = 139,2
+sframe2        = 95,2
+;sframe3        = 110,5
+;sframe4        = 95,5
+
+
+;AIRMOD conditions graciously added by Shadowtroid
+
+zoomto =207,212
+zoom idle =213,233
+zoom move =236,259
+zoom start fire =261,268
+zoom end fire = 269,276
+zoomfrom =279,284
+
+simplezoom = 1
+simplezoomanim = 1
+simplezoomy = -1
+simplezoomx = -3
+simplezoommode = -5
+simplezoomacc = 4
+simplezoomflash = 1
+
+zoomalignx         = 0
+zoomaligny         = -10
+zoomalignz         = 140
+
+
+melee start 	= 714,719
+melee end	= 720,733
+
+simplezoomspeed=6
+runy = -7
+forcezoomout =1
+recoily = 60
+recoilyreturn = 80
+recoilx = 10
+recoilxreturn = 80
+
+zoomrecoily = 50
+zoomrecoilyreturn = 90
+zoomrecoilx = 1.5
+zoomrecoilxreturn = 95
+
+gunlagspeed = 9
+gunlagxmax =3
+gunlagymax = 3
+zoomgunlagspeed = 6
+zoomgunlagxmax = 4
+zoomgunlagymax = 6
+
+zoomwalkspeed = 0.2
+zoomturnspeed = 0.3
+rotz = 0.1
+
+alternateisray = 1
+altreloadqty = 10
+altiterate = 2
+altrange = 3000
+altdamage = 7
+altaccuracy = 6
+altrecoily = 150
+altrecoilx = 30
+altrecoilyreturn = 90
+altrecoilxreturn = 80
+
+altto = 376,420
+altfrom = 421,470
+alt Start fire     = 72,75
+alt automatic fire = 76,82
+alt end fire       = 83,86
+alt idle = 18,51
+alt move = 54,70
+alt reload = 139,198
+alt putaway = 1026,1040
+alt select         = 0,17
+altfireloop = 11000
+altmuzzleflash = 4
+altsound1 = fire.wav
+
+

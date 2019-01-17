@@ -1,0 +1,127 @@
+
+
+poolammo		= machinegun
+alt poolammo		= machinegun
+shareloadedammo 	= 1
+
+
+textured		= gun_D.dds
+effect	                = effectbank\phong_bump_specular\phong_bump_specular.fx
+transparency		= 0
+minpolytrim		= 32
+
+;// GUN HUD (0-colt,1-magnum,2-uzi,3-shotgun,4-rifle,5-rpg)
+statuspanelcode		= 100
+
+;// WEAPON Style (1-pistol,2-rocket,3-shotgun,4-uzi,5-assault)
+weapontype		= 4
+
+;// NPC Decal 
+decal           	= muzzleflash4
+decalforward    	= 125
+
+
+muzzleflash = 3
+muzzlesize = 250
+brass = 2
+smokedecal = smoke1
+damage = 6
+damagetype = 2
+scorchtype = 2
+reloadqty = 60
+iterate = 2
+accuracy = 5
+textured = 
+effect = effectbank\reloaded\weapon_basic.fx
+transparency = 4
+weapontype = 4
+sound1 = fire.wav
+sound2 = reload.wav
+sound3 = dryfire.wav
+sound4 = windup.wav
+sound5 = 
+fireloop = 3500
+horiz = 0
+vert = 0
+forward = -8
+alignx = 20
+aligny = -10
+alignz = 140
+keyframe ratio = 1
+select = 0,17
+Idle = 18,51
+Move = 54,70
+start fire = 72,75
+automatic fire = 76,82
+end fire = 83,86
+reload = 88,137
+useempty = 1
+empty reload = 139,198
+putaway = 1026,1040
+run = 586,604
+soundframes = 4
+sframe0 = 76,1
+sframe2 = 139,2
+sframe1 = 88,2
+sframe4 = 72,4
+firerate = 6
+zoomto = 207,212
+zoom idle = 213,233
+zoom move = 236,259
+zoom start fire = 261,264
+zoom automatic fire = 265,271
+zoom end fire = 272,276
+zoomfrom = 279,284
+simplezoom = 1
+simplezoomacc = 1
+simplezoomy = -5
+simplezoomanim = 1
+simplezoomflash = 1
+zoomalignx = 0
+zoomaligny = -10
+zoomalignz = 140
+melee start = 714,719
+melee end = 720,733
+nofullreload = 1
+chamberedround = 1
+simplezoomspeed = 6
+runy = -7
+runaccuracy = 60
+forcezoomout = 1
+recoily = 70
+recoilyreturn = 85
+recoilxreturn = 80
+zoomrecoily = 30
+zoomrecoilyreturn = 90
+zoomrecoilx = 1.5
+zoomrecoilxreturn = 95
+gunlagspeed = 9
+gunlagxmax = 3
+gunlagymax = 3
+zoomgunlagspeed = 6
+zoomgunlagxmax = 4
+zoomgunlagymax = 6
+zoomwalkspeed = 0.4
+zoomturnspeed = 0.15
+alternateisray = 1
+altreloadqty = 100
+altiterate = 0
+altrange = 3000
+altdamage = 10
+altaccuracy = 6
+altrecoily = 80
+altrecoilx = 30
+altrecoilyreturn = 80
+altrecoilxreturn = 80
+altto = 376,420
+altfrom = 421,470
+alt idle = 18,51
+alt move = 54,70
+alt start fire = 72,75
+alt automatic fire = 76,82
+alt end fire = 83,86
+alt reload = 88,137
+alt putaway = 1026,1040
+alt select = 0,17
+altmuzzleflash = 4
+altsound1 = fire.wav

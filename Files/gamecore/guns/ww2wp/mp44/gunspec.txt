@@ -1,0 +1,132 @@
+;MP44 weapon spec
+
+;Mesh, Textures and Animation by BSP (c)2011-2012 All Rights Reserved
+;requires FPS Creator 1.18 or higher
+;email: dfsnake@gmail.com
+;website: http://bs-productions.cwahi.net/
+
+;GUN Model File Requirements
+
+;GUN Settings
+
+muzzleflash    = 415214
+muzzlesize     = 120
+brass          = 1
+smoke          = 1
+second         = 0
+damage         = 20
+damagetype     = 1
+scorchtype     = 1
+reloadqty      = 30
+iterate        = 0
+accuracy       = 10
+zoommode       = 0
+range          = 5000
+
+;//GUN Visuals
+textured		= gun_D.dds
+texturen		= gun_N.dds
+textures		= gun_S.dds
+effect		= effectbank\ps_2_0\bumpent.fx
+transparency	= 2
+weapontype	= 3
+
+;GUN Sounds
+sound1	       = fire.ogg
+sound2	       = mag1.ogg
+sound3         = mag2.ogg
+sound4         = zoom.ogg
+sound5         = cock.ogg
+sound6         = take.ogg
+fireloop       = 4000
+
+;HUD muzzleflash position
+
+horiz          = -4
+vert           = -8
+forward        = -2
+alignx         = 25
+aligny         = -19
+alignz         = 170
+
+zoomalignx	= 0
+zoomaligny	= -7
+zoomalignz	= 30
+altalignx		= 13.5
+altaligny		= -9.5
+altalignz		= 100
+alt zoomalignx	= 0
+alt zoomaligny	= -6
+alt zoomalignz	= 40
+
+;HUD animation frames list
+
+keyframe ratio = 1
+select         = 0,14
+Idle           = 16,64
+Move           = 66,94
+start fire     = 96,98
+automatic fire = 99,110
+end fire       = 111,113
+reload         = 117,169
+run            = 370,399
+
+useempty = 1
+empty select	= 0,14
+empty idle	= 16,64
+empty move	= 66,94
+empty reload    = 171,233
+empty run       = 370,399
+putaway	        = 356,369
+
+;HUD sound frames list
+
+soundframes    = 7
+sframe0        = 96,1
+sframe1        = 127,2
+sframe3	       = 157,3
+sframe4	       = 181,2
+sframe5	       = 211,3
+sframe6        = 224,5
+sframe7        = 1,6
+
+disablerunandshoot = 1
+firerate = 6
+zoomto =235,243
+zoom idle =245,293
+zoom move =295,323
+zoom start fire =325,327
+zoom automatic fire =328,339
+zoom end fire = 340,342
+zoomfrom =346,354
+simplezoom = 1
+simplezoomacc = 1
+simplezoomy = 4
+simplezoomx = -0.7
+simplezoomanim = 1
+simplezoomflash = 1
+roty = 1
+zoomalignx         = 0
+zoomaligny         = -5
+zoomalignz         = 170
+nofullreload = 1
+chamberedround	= 0
+simplezoomspeed=6
+runy = -7
+runaccuracy = 60
+forcezoomout =1
+recoily = 68
+recoilyreturn = 87
+recoilxreturn = 80
+zoomrecoily = 15
+zoomrecoilyreturn = 90
+zoomrecoilx = 1.5
+zoomrecoilxreturn = 95
+gunlagspeed = 9
+gunlagxmax =3
+gunlagymax = 3
+zoomgunlagspeed = 6
+zoomgunlagxmax = 4
+zoomgunlagymax = 6
+zoomwalkspeed = 0.7
+zoomturnspeed = 0.15

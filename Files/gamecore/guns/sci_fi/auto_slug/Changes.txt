@@ -1,0 +1,4 @@
+2010
+
+Rerigged gun to Joakim Olsson's animations, together with new hands in cooperation with Sebastian Kim.
+Gun now contains 1000 frames of animation for possible upcomming features.

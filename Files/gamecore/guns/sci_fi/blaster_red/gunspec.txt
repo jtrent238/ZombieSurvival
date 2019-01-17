@@ -1,0 +1,209 @@
+
+;// Blaster_Gun
+;// Revision 1.1  29/03/16
+;// Right-Click to Aim Down Sights
+
+;// Ammunition
+
+poolammo		= pistol
+projectile      	= pistol
+reloadqty		= 24
+firerate                = 6
+chamberedround          = 1
+weaponisammo		= 0
+noautoreload		= 0
+nofullreload            = 1
+forcezoomout            = 1
+addtospare		= 1
+iterate                 = 0
+npcignorereload		= 0
+
+altiterate              = 1
+altreloadqty            = 12
+alternateisray          = 1
+
+
+;// Range and damage
+
+damage                  = 25
+damagetype              = 1
+force           	= 100
+range                   = 5000
+scorchtype		= 1
+noscorch		= 0
+
+altdamage               = 50
+altrange                = 3000
+
+
+;// Accuracy
+
+accuracy                = 2
+runaccuracy             = 60
+simplezoom              = 1
+simplezoomacc           = 1
+zoomaccuracy		= 70
+
+altaccuracy             = 5
+
+
+;// HUD handling characteristics
+
+zoomwalkspeed           = 0.4
+zoomturnspeed           = 0.15
+
+recoily                 = 95
+recoilyreturn           = 85
+recoilx	                = 0
+recoilxreturn           = 80
+
+zoomrecoily             = 20
+zoomrecoilyreturn       = 90
+zoomrecoilx             = 1.5
+zoomrecoilxreturn       = 95
+
+zoomgunlagspeed         = 6
+zoomgunlagxmax          = 4
+zoomgunlagymax          = 6
+
+gunlagspeed             = 9
+gunlagxmax              = 3
+gunlagymax              = 3
+
+simplezoomspeed         = 6
+disablerunandshoot	= 1
+reloadspeed 		= 100
+
+altrecoily              = 190
+altrecoilx              = 15
+altrecoilyreturn        = 70
+altrecoilxreturn        = 80
+
+
+;// Visuals
+textured		= gun_D2.dds
+effect			= effectbank\reloaded\weapon_bone.fx
+transparency		= 2
+
+
+; GUN HUD (0-colt,1-magnum,2-uzi,3-shotgun,4-rifle,5-rpg,6-grenade,7-bow,8-mace,9-stone,10-sword,11-staff)
+statuspanelcode		= 100
+
+;// WEAPON Style (1-pistol,2-rocket,3-shotgun,4-uzi,5-assault)
+weapontype		= 1
+
+;// NPC Decal 
+decal           	= plasma_weave
+decalforward    	= 25
+
+
+;HUD Model positions
+
+horiz                   = 0
+vert                    = 9
+forward                 = 2
+runy                    = -7
+roty                    = 1
+rotz                    = 0.1
+
+simplezoomx             = -1
+simplezoomy             = -17
+
+alignx                  = 20
+aligny                  = -6
+alignz                  = 140
+
+ 
+;// Muzzleflash
+muzzlecolorR		= 168
+muzzlecolorG		= 100
+muzzlecolorB		= 36 
+
+muzzleflash             = 4
+simplezoomflash         = 1
+muzzlesize              = 200
+second                  = 0
+decal                   = 0
+smokespeed		= 0
+zoomalignx              = 0
+zoomaligny              = -2
+zoomalignz              = 140
+
+altmuzzleflash          = 5
+
+;// Brass System
+
+brass                   = 0
+
+
+;HUD animation frames list
+
+keyframe ratio          = 1
+simplezoomanim          = 1
+useempty                = 1
+
+select                  = 0,17
+Idle                    = 18,51
+Move                    = 52,70
+run                     = 586,604
+fire                    = 73,81
+putaway                 = 1025,1040
+reload                  = 139,189
+empty reload            = 95,138
+
+zoomto                  = 207,212
+zoomfrom                = 279,284
+zoom idle               = 213,233
+zoom move               = 236,259
+zoom start fire         = 261,268
+zoom end fire           = 269,276
+
+melee start             = 714,719
+melee end               = 720,733
+
+altto                   = 376,404
+altfrom                 = 421,450
+alt select              = 0,17
+alt idle                = 18,51
+alt move                = 54,70
+alt start fire          = 75,79
+alt end fire            = 80,86
+alt reload              = 95,138
+alt putaway             = 1026,1040
+
+alt empty select	= 0
+alt empty idle		= 0
+alt empty move		= 0
+alt empty run		= 0
+alt empty reload	= 0
+alt empty putaway	= 0
+
+alt zoomto		= 0
+alt zoomfrom		= 0
+alt zoom idle		= 0
+alt zoom move		= 0
+alt zoom start fire	= 0
+alt zoom end fire	= 0
+
+
+;// GUN Sounds (0-zoom,1-fire,2-reload,3-dryfire,4-putaway)
+
+sound0			 = zoom.wav
+sound1                   = fire.wav
+sound2                   = reload.wav
+sound3                   = dryfire.wav
+sound4                   = cock.wav
+sound5                   = overheated.wav
+sound6	        	 = retrieve.wav
+fireloop                 = 0
+
+altsound1                = fire.wav
+
+;HUD sound frames list
+soundframes              = 6
+sframe0                  = 73,1
+sframe1                  = 147,2
+sframe4                  = 100,2
+sframe2                  = 139,5
+sframe3                  = 122,4
+sframe6                  = 171,4

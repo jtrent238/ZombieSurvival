@@ -1,0 +1,163 @@
+;Assaultrifle weapon spec
+
+Weapon rerigged and animated by Joakim Olsson
+Hands edited by Joakim after Sebastian Kim's basemesh
+
+Game Guru compatibility by Tyrone (T-Bone/Teabone)
+
+
+;GUN Model File Requirements
+
+;GUN Settings
+
+muzzleflash    = 5
+muzzlesize     = 220
+brass          = 0
+smoke          = 1
+second         = 0
+damage         = 5
+damagetype     = 1
+scorchtype     = 1
+reloadqty      = 30
+iterate        = 0
+accuracy       = 3
+range 	= 8000
+
+; GUN HUD (0-colt,1-magnum,2-uzi,3-shotgun,4-rifle,5-rpg)
+statuspanelcode = 4
+
+;GUN Visuals
+
+textured      = gun_D2.dds
+effect		= effectbank\reloaded\weapon_bone.fx
+transparency  = 2
+weapontype    = 3
+
+poolammo       = assaultrifle
+
+;GUN Decal Override
+;decal          = shockwave
+
+;GUN Sounds
+sound1	       = fire.wav
+sound2	       = reload.wav
+sound3         = dryfire.wav
+sound4         = cock.wav 
+sound5         =
+fireloop       = 7000
+
+;HUD muzzleflash position
+horiz          = 0
+vert           = 4
+forward        = -8
+alignx         = 20
+aligny         = -10
+alignz         = 140
+
+;HUD animation frames list
+
+keyframe ratio = 1
+
+select         = 8,17
+Idle           = 18,49
+Move           = 54,70
+Start fire     = 72,75
+automatic fire = 76,82
+end fire       = 83,86
+reload         = 88,137
+;reload		= 139,198
+
+useempty = 1
+empty reload = 139,198
+
+putaway	       = 1026,1033
+
+run		= 586,604
+
+;HUD sound frames list
+
+soundframes    = 4
+sframe0        = 76,1
+sframe1        = 145,2
+sframe2        = 95,2
+;sframe3        = 110,5
+;sframe4        = 95,5
+
+;Airmod conditions graciously added by Shadowtroid
+
+firerate = 6
+
+zoomto =207,212
+zoom idle =213,233
+zoom move =236,259
+zoom start fire =261,264
+zoom automatic fire =265,271
+zoom end fire = 272,276
+zoomfrom =279,284
+
+simplezoom = 1
+simplezoomacc = 1
+simplezoomy = -4
+simplezoomx = 0.2
+simplezoomanim = 1
+simplezoomflash = 1
+
+zoomalignx         = 0
+zoomaligny         = -10
+zoomalignz         = 140
+
+
+melee start 	= 714,719
+melee end	= 720,733
+
+nofullreload = 1
+chamberedround	= 1
+
+simplezoomspeed=6
+runy = -7
+runaccuracy = 60
+forcezoomout =1
+recoily = 50
+recoilyreturn = 85
+recoilxreturn = 80
+
+zoomrecoily = 10
+zoomrecoilyreturn = 90
+zoomrecoilx = 1.5
+zoomrecoilxreturn = 95
+
+gunlagspeed = 9
+gunlagxmax =3
+gunlagymax = 3
+zoomgunlagspeed = 6
+zoomgunlagxmax = 4
+zoomgunlagymax = 6
+
+zoomwalkspeed = 0.4
+zoomturnspeed = 0.15
+
+
+alternateisray = 1
+altreloadqty = 15
+altiterate = 1
+altrange = 3000
+altdamage = 20
+altaccuracy = 3
+altrecoily = 120
+altrecoilx = 30
+altrecoilyreturn = 70
+altrecoilxreturn = 80
+
+altto = 376,420
+altfrom = 421,470
+alt Start fire     = 72,75
+alt automatic fire = 76,82
+alt end fire       = 83,86
+alt idle = 18,51
+alt move = 54,70
+alt reload = 139,198
+alt putaway = 1026,1040
+alt select         = 0,17
+altfireloop = 11000
+altmuzzleflash = 4
+altsound1 = fire.wav

@@ -1,0 +1,119 @@
+;Panzerfaust weapon spec
+
+;Mesh, Textures and Animation by BSP (c)2011-2012 All Rights Reserved
+;requires FPS Creator 1.18 or higher
+;email: dfsnake@gmail.com
+;website: http://bs-productions.cwahi.net/
+
+;GUN Model File Requirements
+
+;GUN Settings
+
+muzzleflash    = 415214
+muzzlesize     = 250
+brass          = 0
+smoke          = 1
+flak           = ww2wp\panzerfaust
+damage         = 200
+damagetype     = 0
+scorchtype     = 4
+reloadqty      = 1
+iterate        = 0
+accuracy       = 0
+zoommode       = 0
+
+;//GUN Visuals
+textured		= gun_D.dds
+texturen		= gun_N.dds
+textures		= gun_S.dds
+effect		= effectbank\ps_2_0\bumpent.fx
+transparency	= 2
+weapontype	= 5
+
+;GUN Sounds
+sound1	       = fire.ogg
+sound2	       = cock.ogg
+sound3         = reload.ogg
+sound4         = zoom.ogg
+sound5         = take.ogg
+fireloop       = 4000
+
+;HUD muzzleflash position
+
+horiz          = 7
+vert           = -6
+forward        = 12
+alignx         = 0
+aligny         = -20
+alignz         = 150
+
+zoomalignx	= 0
+zoomaligny	= -7
+zoomalignz	= 30
+altalignx		= 13.5
+altaligny		= -9.5
+altalignz		= 100
+alt zoomalignx	= 0
+alt zoomaligny	= -6
+alt zoomalignz	= 40
+
+;HUD animation frames list
+
+keyframe ratio = 1
+select         = 0,33
+Idle           = 35,83
+Move           = 85,113
+start fire     = 184,205
+end fire       = 207,225
+reload         = 125,182
+run            = 85,113
+putaway	       = 251,283
+
+useempty = 1
+empty select    = 241,249
+empty Idle      = 241,249
+empty Move      = 241,249
+empty reload    = 125,182
+empty putaway   = 241,249
+
+nofullreload = 1
+
+soundframes    = 7
+sframe0        = 118,1
+sframe1        = 25,2
+sframe3	       = 174,2
+sframe4	       = 125,3
+sframe5	       = 226,3
+sframe6	       = 256,2
+sframe7	       = 1,5
+
+disablerunandshoot = 1
+simplezoomacc = 1
+simplezoomy = 0.1
+simplezoomx = -0.2
+simplezoomanim = 1
+simplezoomflash = 1
+zoomalignx         = 0
+zoomaligny         = -5
+zoomalignz         = 150
+nofullreload = 1
+chamberedround	= 0
+simplezoomspeed=6
+runy = -7
+runaccuracy = 60
+forcezoomout =1
+recoily = 50
+recoilyreturn = 85
+recoilxreturn = 80
+zoomrecoily = 10
+zoomrecoilyreturn = 90
+zoomrecoilx = 1.5
+zoomrecoilxreturn = 95
+gunlagspeed = 9
+gunlagxmax =3
+gunlagymax = 3
+zoomgunlagspeed = 6
+zoomgunlagxmax = 4
+zoomgunlagymax = 6
+zoomwalkspeed = 0.4
+zoomturnspeed = 0.15

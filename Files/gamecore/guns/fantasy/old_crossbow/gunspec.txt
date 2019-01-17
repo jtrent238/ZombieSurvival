@@ -1,0 +1,66 @@
+;old crossbow weapon spec
+
+;GUN Model File Requirements
+
+; GUN HUD (0-colt,1-magnum,2-uzi,3-shotgun,4-rifle,5-rpg,6-grenade,7-bow,8-mace,9-stone,10-sword)
+statuspanelcode = 7
+
+
+;GUN Settings
+
+muzzleflash    = 0
+muzzlesize     = 0
+brass          = 0
+smoke          = 0
+second         = 0
+damage         = 50
+damagetype     = 1
+scorchtype     = 3
+reloadqty      = 0
+iterate        = 0
+accuracy       = 1
+weaponisammo   = 1
+range = 250
+
+;GUN Visuals
+
+textured      = 
+effect        = 
+transparency  = 1
+weapontype    = 51
+vweaptex = vweap
+
+;GUN Sounds
+
+sound1	       = 
+sound2	       = fire.wav
+sound3         = reload.wav
+sound4         = 
+sound5         =
+fireloop       = 0
+
+;HUD muzzleflash position
+
+horiz          = 7
+vert           = -2
+forward        = 10
+alignx         = -10
+aligny         = -2
+alignz         = 50
+
+;HUD animation frames list
+
+keyframe ratio = 1
+select         = 20,32
+Idle           = 40,80
+Move           = 100,120
+start fire     = 130,132
+end fire	= 133,189
+putaway	       = 210,220
+
+;HUD sound frames list
+
+soundframes    = 3
+sframe0        = 
+sframe1        = 130,2
+sframe2        = 160,3

@@ -1,0 +1,128 @@
+;//RayGun pistol spec
+;//Weapon was created and animated by BSP
+
+;GUN Model File Requirements
+
+;//Press [Left Ctrl] to melee
+melee key	= 29
+
+;GUN Settings
+muzzleflash	    = 51
+muzzlesize	    = 250
+smoke               = 1
+damage	            = 35
+damagetype	    = 1
+scorchtype	    = 2
+reloadqty	    = 9999
+accuracy	    = 4
+zoomaccuracy        = 0
+melee range	= 60
+melee damage	= 100
+melee noscorch 	= 1
+range	            = 2500
+force               = 70
+npcignorereload     = 1
+
+;Decal 
+decal           = muzzleflash51
+decalforward    = 125
+
+;GUN Visuals
+textured	= gun_D.dds
+effect		= effectbank\reloaded\weapon_basic.fx
+transparency    = 0
+weapontype      = 1
+statuspanelcode = 0
+poolammo        = BSP_SR1MP
+
+;GUN Sounds
+sound1	       = fire.wav
+sound3         = dryfire.wav
+sound4         = putaway.wav
+sound7         = zoom.wav
+sound9         = retrieve.wav
+sound10        = close.wav
+fireloop       = 2000
+
+;HUD muzzleflash position
+
+horiz      =  0
+vert       = -8
+forward    = 0
+alignx     = 22
+aligny     = -12
+alignz     = 120
+
+;HUD animation frames list
+
+keyframe ratio = 1
+select         = 0,14
+Idle           = 15,64
+Move           = 65,94
+start fire     = 95,97
+end fire       = 98,101
+reload         = 325,368
+run            = 295,324
+putaway	       = 280,294
+
+melee start	  = 325,334
+melee end	  = 335,347
+empty melee start = 325,334
+empty melee end   = 335,347
+
+useempty = 1
+
+empty select	= 0,14
+empty idle	= 15,64
+empty move	= 65,94
+empty reload    = 325,368
+empty run       = 295,324
+
+;HUD sound frames list
+
+soundframes    = 6
+sframe0        = 0,9
+sframe1        = 98,1
+sframe2	       = 168,10
+sframe3	       = 175,7
+sframe4        = 265,1
+sframe5        = 270,7
+sframe6        = 281,4
+
+disablerunandshoot = 1
+zoomto =174,183
+zoom idle =184,233
+zoom move =234,262
+zoom start fire =263,265 
+zoom end fire = 266,269
+zoomfrom =270,279
+simplezoom = 1
+simplezoomacc = 1
+simplezoomy = -5.2
+simplezoomx = -5.2
+simplezoomanim = 1
+simplezoomflash = 1
+zoomalignx         =  5
+zoomaligny         = -5
+zoomalignz         = 120
+nofullreload = 1
+chamberedround	= 0
+simplezoomspeed=6
+runy = -7
+runaccuracy = 60
+forcezoomout =1
+recoily = 50
+recoilyreturn = 85
+recoilxreturn = 80
+zoomrecoily = 10
+zoomrecoilyreturn = 90
+zoomrecoilx = 1.5
+zoomrecoilxreturn = 95
+gunlagspeed = 9
+gunlagxmax =3
+gunlagymax = 3
+zoomgunlagspeed = 6
+zoomgunlagxmax = 4
+zoomgunlagymax = 6
+zoomwalkspeed = 0.4
+zoomturnspeed = 0.15

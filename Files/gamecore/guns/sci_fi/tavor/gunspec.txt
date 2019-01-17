@@ -1,0 +1,222 @@
+;// Tavor_Gun
+;// Revision 1.1  04/04/16
+;// Right-Click to Aim Down Sights
+
+;// Ammunition
+
+poolammo		= rifle
+projectile      	= rifle
+reloadqty		= 24
+firerate                = 6
+chamberedround          = 1
+weaponisammo		= 0
+noautoreload		= 0
+nofullreload            = 1
+forcezoomout            = 1
+addtospare		= 1
+iterate                 = 0
+npcignorereload		= 0
+
+alt iterate              = 1
+alt reloadqty            = 20
+alt ernateisray          = 1
+
+
+;// Range and damage
+
+damage                  = 25
+damagetype              = 1
+force           	= 100
+range                   = 5000
+scorchtype		= 1
+noscorch		= 0
+smoke                   = 1
+second                  = 1
+damage                  = 10
+
+;zoommode               = 1
+
+alt damage               = 7
+alt range                = 3000
+
+
+;// Accuracy
+
+accuracy                = 2
+runaccuracy             = 60
+simplezoom              = 1
+simplezoomacc           = 1
+zoomaccuracy		= 70
+
+alt accuracy            = 6
+
+
+;// HUD handling characteristics
+
+zoomwalkspeed           = 0.4
+zoomturnspeed           = 0.15
+
+recoily                 = 50
+recoilyreturn           = 85
+recoilx	                = 3
+recoilxreturn           = 80
+
+zoomrecoily             = 20
+zoomrecoilyreturn       = 90
+zoomrecoilx             = 1.5
+zoomrecoilxreturn       = 95
+
+zoomgunlagspeed         = 6
+zoomgunlagxmax          = 4
+zoomgunlagymax          = 6
+
+gunlagspeed             = 9
+gunlagxmax              = 3
+gunlagymax              = 3
+
+simplezoomspeed         = 6
+disablerunandshoot	= 1
+reloadspeed 		= 100
+
+alt recoily              = 120
+alt recoilx              = 30
+alt recoilyreturn        = 70
+alt recoilxreturn        = 80
+
+
+;// GUN HUD Visuals (0-colt,1-magnum,2-uzi,3-shotgun,4-rifle,5-rpg,6-grenade,7-bow,8-mace,9-stone,10-sword,11-staff)
+
+statuspanelcode		= 100
+textured		= gun_D2.dds
+vweaptex                = tavor
+effect			= effectbank\phong_bump_specular\phong_bump_specular.fx
+transparency		= 4
+;zoomscope              = scope2.tga
+
+;// WEAPON Style (1-pistol,2-rocket,3-shotgun,4-uzi,5-assault)
+weapontype		= 5
+
+;// NPC Decal 
+decal           	= muzzleflash4
+decalforward    	= 15
+
+;HUD Model positions
+
+
+horiz                   = 0
+vert                    = 4
+forward                 = 8
+runy                    = -7
+roty                    = 1
+rotz                    = 0.1
+
+simplezoomx             = -1
+simplezoomy             = -17
+
+alignx                  = 31
+aligny                  = -12
+alignz                  = 140
+
+ 
+;// Muzzleflash
+muzzlecolorR		= 168
+muzzlecolorG		= 100
+muzzlecolorB		= 36 
+
+muzzleflash             = 1
+simplezoomflash         = 1
+muzzlesize              = 200
+second                  = 0
+decal                   = 0
+smokespeed		= 0
+zoomalignx              = 0
+zoomaligny              = -2
+zoomalignz              = 140
+
+alt muzzleflash          = 4
+
+
+;// Brass System
+
+brass                   = 2
+
+;HUD animation frames list
+
+keyframe ratio          = 1
+simplezoomanim          = 1
+useempty                = 1
+
+select                  = 8,17
+Idle                    = 18,49
+Move                    = 54,70
+run                     = 586,604
+start fire              = 72,75
+automatic fire          = 76,82
+end fire                = 83,86
+reload                  = 88,137
+empty reload            = 139,198
+putaway                 = 1026,1033
+
+alt start fire          = 72,75
+alt automatic fire      = 76,82
+alt end fire            = 83,86
+alt idle                = 18,51
+alt move                = 54,70
+alt reload              = 139,198
+alt putaway             = 1026,1040
+alt select              = 0,17
+alt fireloop            = 11000
+
+zoomto                  = 207,212
+zoomfrom                = 279,284
+zoom idle               = 213,233
+zoom move               = 236,259
+zoom start fire         = 261,268
+zoom end fire           = 269,276
+
+melee start             = 714,719
+melee end               = 720,733
+
+alt to                  = 376,420
+alt from                = 421,470
+alt select              = 0,17
+alt idle                = 18,51
+alt move                = 54,70
+alt start fire          = 75,79
+alt end fire            = 80,86
+alt reload              = 95,138
+alt putaway             = 1026,1040
+
+alt empty select	= 0
+alt empty idle		= 0
+alt empty move		= 0
+alt empty run		= 0
+alt empty reload	= 0
+alt empty putaway	= 0
+
+alt zoomto		= 0
+alt zoomfrom		= 0
+alt zoom idle		= 0
+alt zoom move		= 0
+alt zoom start fire	= 0
+alt zoom end fire	= 0
+
+
+;// GUN Sounds (0-zoom,1-fire,2-reload,3-dryfire,4-putaway)
+
+sound0			 = zoom.wav
+sound1                   = fire.wav
+sound2                   = reload.wav
+sound3                   = dryfire.wav
+sound4                   = cock.wav
+sound5                   = overheated.wav
+sound6	        	 = retrieve.wav
+fireloop                 = 5000
+
+alt sound1                = fire.wav
+
+;HUD sound frames list
+soundframes              = 4
+sframe0                  = 76,1
+sframe1                  = 145,2
+sframe2                  = 95,5

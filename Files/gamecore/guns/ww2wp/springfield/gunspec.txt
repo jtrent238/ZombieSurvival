@@ -1,0 +1,108 @@
+;SPRINGFIELD weapon spec
+
+;Mesh, Textures and Animation by BSP (c)2011-2012 All Rights Reserved
+;requires FPS Creator 1.18 or higher
+;email: dfsnake@gmail.com
+;website: http://bs-productions.cwahi.net/
+
+;GUN Model File Requirements
+
+;GUN Settings
+
+muzzleflash    = 415212
+muzzlesize     = 150
+brass          = 1
+smoke          = 1
+second         = 0
+damage         = 100
+damagetype     = 1
+scorchtype     = 1
+reloadqty      = 5
+iterate        = 0
+accuracy       = 2
+shotgun        = 1
+
+;//GUN Visuals
+textured		= gun_D.dds
+texturen		= gun_N.dds
+textures		= gun_S.dds
+effect		= effectbank\ps_2_0\bumpent.fx
+transparency	= 1
+zoomscope     = scope.dds
+weapontype	= 2
+
+;GUN Sounds
+sound1	       = fire.ogg
+sound2	       = m_rech1.ogg
+sound3         = m_rech2.ogg
+sound4         = zoom.ogg
+sound5         = reload.ogg
+sound6         = take.ogg
+fireloop       = 4000
+
+;HUD muzzleflash position
+
+horiz          = -7
+vert           = -2
+forward        = -2
+alignx         = 16
+aligny         = -7
+alignz         = 170
+
+zoomalignx	= 0
+zoomaligny	= -7
+zoomalignz	= 30
+altalignx		= 13.5
+altaligny		= -9.5
+altalignz		= 100
+alt zoomalignx	= 0
+alt zoomaligny	= -6
+alt zoomalignz	= 40
+
+;HUD animation frames list
+
+keyframe ratio = 1
+select         = 0,14
+Idle           = 16,64
+Move           = 66,94
+fire           = 96,129
+start reload   = 131,151
+reload loop    = 349,366 
+end reload     = 168,180
+putaway	       = 333,347
+run            = 371,399
+
+;HUD sound frames list
+
+soundframes    = 9
+sframe0        = 96,1
+sframe1        = 111,2
+sframe3	       = 122,3
+sframe4	       = 136,2
+sframe5	       = 358,5
+sframe6	       = 173,3
+sframe7        = 293,2
+sframe8	       = 305,3
+sframe9	       = 1,6
+
+disablerunandshoot = 1
+nofullreload = 1
+chamberedround	= 0
+simplezoom = 7
+simplezoomx = 200
+simplezoommode = 1
+simplezoomacc = 1
+simplezoomspeed=6
+runy = -7
+forcezoomout =1
+recoily = 70
+recoilyreturn = 80
+recoilx = 10
+recoilxreturn = 80
+zoomrecoily = 50
+zoomrecoilyreturn = 90
+zoomrecoilx = 1.5
+zoomrecoilxreturn = 95
+gunlagspeed = 9
+gunlagxmax =3
+gunlagymax = 3

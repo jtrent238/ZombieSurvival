@@ -1,0 +1,90 @@
+;RPG File Requirements
+
+;GUN Settings
+muzzleflash     = 0
+muzzlesize      = 0
+brass           = 0
+smoke           = 0
+flak            = modern\grenade
+projectile      = handgrenade
+projectileframe = 165
+damage          = 100
+damagetype      = 0
+scorchtype      = 4
+reloadqty       = 1
+nofullreload    = 1
+iterate         = 0
+accuracy        = 0
+zoommode        = 0
+weaponisammo    = 0
+force           = 0
+npcignorereload = 0
+minpolytrim     = 32
+
+;Decal 
+decal           =
+
+; GUN HUD (0-colt,1-magnum,2-uzi,3-shotgun,4-rifle,5-rpg,6-grenade)
+statuspanelcode = 6
+
+;GUN Visuals
+textured	= gun_D.dds
+effect		= effectbank\reloaded\weapon_basic.fx
+transparency    = 4
+poolammo        = grenade
+
+;WEAPON Style (1-pistol,2-rocket,3-shotgun,4-uzi,5-assault)
+weapontype     = 0
+
+;HUD muzzleflash position
+horiz           = 0
+vert            = 0
+forward         = 0
+alignx          = 0
+aligny          = 0
+alignz          = 0
+
+;GUN Sounds (0-zoom,1-fire,2-reload,3-dryfire,4-putaway)
+sound0		= silence.wav
+sound1		= pin.wav
+sound2		= silence.wav
+sound3		= silence.wav
+sound4		= putaway.wav
+sound5	        = retrieve.wav
+sound6		= throw.wav
+fireloop	= 0
+
+;HUD sound frames list
+keyframe ratio  = 1
+soundframes     = 2
+sframe0         = 155,6
+sframe1         = 139,5
+
+;HUD animation frames list
+select          = 15,22
+Idle            = 23,97
+Move            = 100,130
+fire	        = 146,170
+flakrearmframe  = 170
+reload          = 170,170
+putaway	        = 136,140
+run	        = 98,137
+
+;Airmod settings
+runy            = 0
+forcezoomout    = 0
+recoily         = 0
+recoilyreturn   = 0
+recoilx         = 0
+recoilxreturn   = 0
+gunlagspeed     = 9
+gunlagxmax      = 3
+gunlagymax      = 3
+melee start 	= 0,0
+melee end	= 0,0
+
+;No Zoom settings
+simplezoom	= 0
+simplezoommod	= 0
+simplezoomanim	= 0
+simplezoomflash	= 0
