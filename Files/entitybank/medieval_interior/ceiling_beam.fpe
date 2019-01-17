@@ -1,0 +1,34 @@
+
+;header
+
+desc          = Ceiling Beam
+;ai
+aiinit	      = appear1.fpi
+aimain	      = default.fpi
+aidestroy     = disappear1.fpi
+
+;spawn
+spawnmax      = 0
+spawndelay    = 0
+spawnqty      = 0
+
+;orientation
+
+model         = ceiling_beam.x
+offx          = 0
+offy          = -5
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+defaultstatic = 1
+ISIMMOBILE=1
+materialindex = 4
+collisionmode = 2
+
+;visualinfo
+
+textured      = medceiling1.dds
+effect        = 
+castshadow    = 0
+

@@ -1,0 +1,41 @@
+;header
+desc          = Item J
+
+;ai
+aiinit         = appear1.fpi
+aimain         = default.fpi
+aidestroy      = disappear1.fpi
+
+;spawn
+spawnmax      = 0
+spawndelay    = 0
+spawnqty      = 0
+
+;orientation
+
+model         = item_j.x
+offx          = 0
+offy          = 0
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+scale         = 100
+fixnewy       = 0
+defaultstatic = 0
+materialindex = 3
+collisionmode = 0
+strength      = 0
+isimmobile    = 0
+soundset      = 
+soundset1     = 
+
+;visualinfo
+
+textured      = item_j_d2.dds
+effect        = 
+castshadow    = 0
+
+;Animationinfo
+animmax       = 0
+anim0         = 0,0

@@ -1,0 +1,7 @@
+The textures in this modelpack use media from CGTextures. Visit www.cgtextures.com for more information.
+
+Models marked with HP are higher in polycount for their size. This means that they have more
+geometrical detail and inform leveldesigners that they shouldn't use them as often in a map as other models.
+
+All Models have specular maps designed for FPSCX9 - Metro theater pack - lightmap_herospec.fx
+shader effect.

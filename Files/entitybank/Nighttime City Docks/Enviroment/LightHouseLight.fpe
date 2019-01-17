@@ -1,0 +1,49 @@
+;Night City Docks Pack - created by Disturbing13 (George Patterson)
+;header
+
+;Header
+desc          = LightHouseLight
+
+;AI
+aiinit	      = appear1.fpi
+aimain	      = LightHouseSpin.fpi
+aidestroy     = destroy\crumble.fpi
+
+;Spawn
+spawnmax      = 0
+spawndelay    = 0
+spawnqty      = 0
+
+;Orientation
+model         = LightHouseLight.X
+offx          = 0
+offy          = 0
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+scale         = 100
+materialindex = 3
+
+forwardfacing = 0
+defaultheight = 77
+
+;Visualinfo
+textured      = light_D2.dds
+effect        = 
+
+;Identity Details
+strength      = 10000
+defaultstatic = 0
+isimmobile    = 1
+explodable    = 0
+
+;decals
+decalmax      = 2
+decal0        = smoke1
+decal1        = smoke1
+
+;Animationinfo
+animmax       = 2
+anim0         = 0,0
+anim1         = 0,100

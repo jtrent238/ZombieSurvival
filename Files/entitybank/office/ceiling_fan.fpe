@@ -1,0 +1,51 @@
+;header
+desc          = Ceiling Fan
+
+;ai
+aiinit	      = appear1.fpi
+aimain        = office\ceiling_fan.fpi
+
+;spawn
+spawnmax      = 0
+spawndelay    = 0
+spawnqty      = 0
+
+;orientation
+model         = ceiling_fan.x
+offx          = 0
+offy          = 0
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+fixnewy       = 180
+raisefactor   = 1.2
+
+;cone of sight
+coneheight    = 33
+coneangle     = 43
+
+;visualinfo
+textured      = 
+effect        = 
+castshadow    = 0
+texturearray  = 0
+
+;decals
+decalmax      = 2
+decal0        = sparks
+decal1        = sparks
+
+;identity details
+strength      = 0
+ischaracter   = 0
+isobjective   = 0
+cantakeweapon = 0
+
+;bodypartslimbinfo (1=head/2=body/3+4=armslr/5+6=legslr)
+limbmax       = 0
+
+;animationinfo
+animmax       = 2
+anim0         = 0,20
+anim1         = 0,20

@@ -1,0 +1,33 @@
+
+;header
+
+desc          = Building 18
+;ai
+aiinit	      = appear1.fpi
+aimain	      = default.fpi
+aidestroy     = disappear1.fpi
+
+;spawn
+spawnmax      = 0
+spawndelay    = 0
+spawnqty      = 0
+
+;orientation
+
+model         = building18.x
+offx          = 0
+offy          = 0
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+defaultstatic = 1
+materialindex = 4
+collisionmode = 1
+
+;visualinfo
+
+textured      = building18.dds
+effect        = 
+castshadow    = 0
+

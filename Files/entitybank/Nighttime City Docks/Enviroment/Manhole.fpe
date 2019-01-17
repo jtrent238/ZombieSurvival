@@ -1,0 +1,37 @@
+;Night City Pack - created by Disturbing13 (George Patterson)
+;Entity Spec
+
+;Header
+
+desc          = Manhole
+
+;AI
+aiinit	      = appearNoCollision.fpi
+aimain	      = default.fpi
+aidestroy     = disappear1.fpi
+
+;Spawn
+spawnmax      = 0
+spawndelay    = 0
+spawnqty      = 0
+
+;Orientation
+
+model         = Manhole.X
+offx          = 0
+offy          = 0
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+forwardfacing = 0
+defaultheight = 0
+defaultstatic = 0
+collisionmode = 0
+
+;Visualinfo
+
+textured      = Manhole_D2.dds
+effect        =
+;effect        = effectbank\ps_3_0\entities\static\norm_alphaspec_tangentbasis.fx
+castshadow    = 1

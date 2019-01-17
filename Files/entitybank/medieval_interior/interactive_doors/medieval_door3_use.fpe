@@ -1,0 +1,38 @@
+;Entity Spec
+
+;Header
+desc          = Medieval Door 3 (use)
+
+;AI
+aiinit	      = appear1.fpi
+aimain	      = dooruse.fpi
+aidestroy     = disappear1.fpi
+
+;Spawn
+spawnmax      = 0
+spawndelay    = 0
+spawnqty      = 0
+
+;Orientation
+model         = meshbank\medieval_interior\door3.x
+offx          = 0
+offy          = 50
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+materialindex = 3
+soundset      = audiobank\ww2\scenery\doors\lock.wav
+soundset1     = audiobank\ww2\scenery\doors\close.wav
+
+;Visualinfo
+textured      = door3.dds
+effect        = 
+
+;Identity Details
+strength      = 0
+isimmobile    = 1
+
+;Animationinfo
+animmax       = 1
+anim0         = 0,30

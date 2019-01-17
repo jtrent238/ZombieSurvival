@@ -1,0 +1,365 @@
+xof 0303txt 0032
+
+// DirectX 9.0 file
+// Creator: Ultimate Unwrap3D Pro v3.15
+// Time: Tue Aug 11 14:45:06 2009
+
+// Start of Templates
+
+template VertexDuplicationIndices {
+ <b8d65549-d7c9-4995-89cf-53a9a8b031e3>
+ DWORD nIndices;
+ DWORD nOriginalVertices;
+ array DWORD indices[nIndices];
+}
+
+template FVFData {
+ <b6e70a0e-8ef9-4e83-94ad-ecc8b0c04897>
+ DWORD dwFVF;
+ DWORD nDWords;
+ array DWORD data[nDWords];
+}
+
+template Header {
+ <3D82AB43-62DA-11cf-AB39-0020AF71E433>
+ WORD major;
+ WORD minor;
+ DWORD flags;
+}
+
+template Vector {
+ <3D82AB5E-62DA-11cf-AB39-0020AF71E433>
+ FLOAT x;
+ FLOAT y;
+ FLOAT z;
+}
+
+template Coords2d {
+ <F6F23F44-7686-11cf-8F52-0040333594A3>
+ FLOAT u;
+ FLOAT v;
+}
+
+template Matrix4x4 {
+ <F6F23F45-7686-11cf-8F52-0040333594A3>
+ array FLOAT matrix[16];
+}
+
+template ColorRGBA {
+ <35FF44E0-6C7C-11cf-8F52-0040333594A3>
+ FLOAT red;
+ FLOAT green;
+ FLOAT blue;
+ FLOAT alpha;
+}
+
+template ColorRGB {
+ <D3E16E81-7835-11cf-8F52-0040333594A3>
+ FLOAT red;
+ FLOAT green;
+ FLOAT blue;
+}
+
+template IndexedColor {
+ <1630B820-7842-11cf-8F52-0040333594A3>
+ DWORD index;
+ ColorRGBA indexColor;
+}
+
+template Material {
+ <3D82AB4D-62DA-11cf-AB39-0020AF71E433>
+ ColorRGBA faceColor;
+ FLOAT power;
+ ColorRGB specularColor;
+ ColorRGB emissiveColor;
+ [...]
+}
+
+template TextureFilename {
+ <A42790E1-7810-11cf-8F52-0040333594A3>
+ STRING filename;
+}
+
+template MeshFace {
+ <3D82AB5F-62DA-11cf-AB39-0020AF71E433>
+ DWORD nFaceVertexIndices;
+ array DWORD faceVertexIndices[nFaceVertexIndices];
+}
+
+template MeshTextureCoords {
+ <F6F23F40-7686-11cf-8F52-0040333594A3>
+ DWORD nTextureCoords;
+ array Coords2d textureCoords[nTextureCoords];
+}
+
+template MeshMaterialList {
+ <F6F23F42-7686-11cf-8F52-0040333594A3>
+ DWORD nMaterials;
+ DWORD nFaceIndexes;
+ array DWORD faceIndexes[nFaceIndexes];
+ [Material]
+}
+
+template MeshNormals {
+ <F6F23F43-7686-11cf-8F52-0040333594A3>
+ DWORD nNormals;
+ array Vector normals[nNormals];
+ DWORD nFaceNormals;
+ array MeshFace faceNormals[nFaceNormals];
+}
+
+template MeshVertexColors {
+ <1630B821-7842-11cf-8F52-0040333594A3>
+ DWORD nVertexColors;
+ array IndexedColor vertexColors[nVertexColors];
+}
+
+template Mesh {
+ <3D82AB44-62DA-11cf-AB39-0020AF71E433>
+ DWORD nVertices;
+ array Vector vertices[nVertices];
+ DWORD nFaces;
+ array MeshFace faces[nFaces];
+ [...]
+}
+
+template FrameTransformMatrix {
+ <F6F23F41-7686-11cf-8F52-0040333594A3>
+ Matrix4x4 frameMatrix;
+}
+
+template Frame {
+ <3D82AB46-62DA-11cf-AB39-0020AF71E433>
+ [...]
+}
+
+template FloatKeys {
+ <10DD46A9-775B-11cf-8F52-0040333594A3>
+ DWORD nValues;
+ array FLOAT values[nValues];
+}
+
+template TimedFloatKeys {
+ <F406B180-7B3B-11cf-8F52-0040333594A3>
+ DWORD time;
+ FloatKeys tfkeys;
+}
+
+template AnimationKey {
+ <10DD46A8-775B-11cf-8F52-0040333594A3>
+ DWORD keyType;
+ DWORD nKeys;
+ array TimedFloatKeys keys[nKeys];
+}
+
+template AnimationOptions {
+ <E2BF56C0-840F-11cf-8F52-0040333594A3>
+ DWORD openclosed;
+ DWORD positionquality;
+}
+
+template Animation {
+ <3D82AB4F-62DA-11cf-AB39-0020AF71E433>
+ [...]
+}
+
+template AnimationSet {
+ <3D82AB50-62DA-11cf-AB39-0020AF71E433>
+ [Animation]
+}
+
+template XSkinMeshHeader {
+ <3CF169CE-FF7C-44ab-93C0-F78F62D172E2>
+ WORD nMaxSkinWeightsPerVertex;
+ WORD nMaxSkinWeightsPerFace;
+ WORD nBones;
+}
+
+template SkinWeights {
+ <6F0D123B-BAD2-4167-A0D0-80224F25FABB>
+ STRING transformNodeName;
+ DWORD nWeights;
+ array DWORD vertexIndices[nWeights];
+ array FLOAT weights[nWeights];
+ Matrix4x4 matrixOffset;
+}
+
+template AnimTicksPerSecond {
+ <9E415A43-7BA6-4a73-8743-B73D47E88476>
+ DWORD AnimTicksPerSecond;
+}
+
+AnimTicksPerSecond {
+ 30;
+}
+
+// Start of Frames
+
+   Frame Body {
+      FrameTransformMatrix {
+       1.000000, 0.000000, 0.000000, 0.000000,
+       0.000000, 1.000000, 0.000000, 0.000000,
+       0.000000, 0.000000, 1.000000, 0.000000,
+       0.000000, 0.000000, 0.000000, 1.000000;;
+      }
+
+   }
+   Frame Body0 {
+      FrameTransformMatrix {
+       1.000000, 0.000000, 0.000000, 0.000000,
+       0.000000, 1.000000, 0.000000, 0.000000,
+       0.000000, 0.000000, 1.000000, 0.000000,
+       0.000000, 0.000000, 0.000000, 1.000000;;
+      }
+
+   }
+
+   Frame Body00 {
+      FrameTransformMatrix {
+       1.000000, 0.000000, 0.000000, 0.000000,
+       0.000000, 1.000000, 0.000000, 0.000000,
+       0.000000, 0.000000, 1.000000, 0.000000,
+       0.000000, 0.000000, 0.000000, 1.000000;;
+      }
+
+      Mesh skinnedMesh {
+       8;
+       -15.657784; 53.604794; 0.475899;,
+       -15.657784; 53.604794; -0.475906;,
+       -15.111515; 0.000000; 0.475899;,
+       -15.111515; 0.000000; -0.475906;,
+       15.111483; 53.918392; 0.475899;,
+       15.657784; 0.313599; 0.475899;,
+       15.111483; 53.918392; -0.475906;,
+       15.657784; 0.313599; -0.475906;;
+       12;
+       3;0, 1, 2;,
+       3;1, 3, 2;,
+       3;4, 0, 5;,
+       3;0, 2, 5;,
+       3;6, 4, 7;,
+       3;4, 5, 7;,
+       3;1, 6, 3;,
+       3;6, 7, 3;,
+       3;4, 6, 0;,
+       3;6, 1, 0;,
+       3;7, 5, 3;,
+       3;5, 2, 3;;
+
+      MeshNormals {
+       8;
+       -0.340110; 0.663235; 0.666666;,
+       -0.820614; 0.399907; -0.408248;,
+       -0.812294; -0.416547; 0.408248;,
+       -0.326522; -0.670029; -0.666667;,
+       0.812294; 0.416548; 0.408248;,
+       0.340110; -0.663235; 0.666667;,
+       0.326522; 0.670029; -0.666667;,
+       0.820615; -0.399906; -0.408248;;
+       12;
+       3;0, 1, 2;,
+       3;1, 3, 2;,
+       3;4, 0, 5;,
+       3;0, 2, 5;,
+       3;6, 4, 7;,
+       3;4, 5, 7;,
+       3;1, 6, 3;,
+       3;6, 7, 3;,
+       3;4, 6, 0;,
+       3;6, 1, 0;,
+       3;7, 5, 3;,
+       3;5, 2, 3;;
+      }
+
+      MeshTextureCoords {
+       8;
+       0.034781; 0.021259;,
+       0.034781; 0.021259;,
+       0.051420; 0.980447;,
+       0.051420; 0.980447;,
+       0.972016; 0.015647;,
+       0.988657; 0.974835;,
+       0.972016; 0.015647;,
+       0.988657; 0.974835;;
+      }
+
+      MeshVertexColors {
+       8;
+       0; 1.000000; 1.000000; 1.000000; 1.000000;,
+       1; 1.000000; 1.000000; 1.000000; 1.000000;,
+       2; 1.000000; 1.000000; 1.000000; 1.000000;,
+       3; 1.000000; 1.000000; 1.000000; 1.000000;,
+       4; 1.000000; 1.000000; 1.000000; 1.000000;,
+       5; 1.000000; 1.000000; 1.000000; 1.000000;,
+       6; 1.000000; 1.000000; 1.000000; 1.000000;,
+       7; 1.000000; 1.000000; 1.000000; 1.000000;;
+      }
+
+      MeshMaterialList {
+       1;
+       12;
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0;
+
+       Material def_surf_mat {
+        0.992157; 0.992157; 0.992157; 1.000000;;
+        128.000000;
+        0.150000; 0.150000; 0.150000;;
+        0.000000; 0.000000; 0.000000;;
+
+        TextureFilename {
+         "picture7.dds";
+        }
+       }
+
+      }
+
+      XSkinMeshHeader {
+       1;
+       1;
+       1;
+      }
+
+      SkinWeights {
+       "Body";
+       8;
+       0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7;
+       1.000000,
+       1.000000,
+       1.000000,
+       1.000000,
+       1.000000,
+       1.000000,
+       1.000000,
+       1.000000;
+          1.000000, 0.000000, 0.000000, 0.000000,
+          0.000000, 1.000000, 0.000000, 0.000000,
+          0.000000, 0.000000, 1.000000, 0.000000,
+          0.000000, 0.000000, 0.000000, 1.000000;;
+      }
+
+
+     }
+   }
+
+// Start of Animation
+
+AnimationSet Untitled {
+}

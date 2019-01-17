@@ -1,0 +1,33 @@
+
+desc          = Babyblock "A"
+;ai
+aiinit         = appear1.fpi
+aimain         = default.fpi
+aidestroy      = disappear1.fpi
+;spawn
+spawnmax      = 0
+spawndelay    = 0
+spawnqty      = 0
+;orientation
+model         = babyblock_a.x
+offx          = 0
+offy          = 0
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+fixnewy       = 0
+defaultstatic = 0
+materialindex = 4
+collisionmode = 1
+strength      = 0
+isimmobile    = 0
+soundset      =
+soundset1     =
+;visualinfo
+textured      = babyblock_a_D2.dds
+effect        =
+castshadow    = 0
+;Animationinfo
+animmax       = 0
+anim0         = 0,0

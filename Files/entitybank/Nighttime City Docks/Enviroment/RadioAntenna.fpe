@@ -1,0 +1,35 @@
+;Night City Pack - created by Disturbing13 (George Patterson)
+;Header
+
+desc          = RadioAntenna
+
+;AI
+aiinit	      = appear1.fpi
+aimain	      = default.fpi
+aidestroy     = disappear1.fpi
+
+;Spawn
+spawnmax      = 0
+spawndelay    = 0
+spawnqty      = 0
+
+;Orientation
+
+model         = RadioAntenna.X
+offx          = 0
+offy          = 0
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+forwardfacing = 0
+defaultheight = 0
+defaultstatic = 1
+materialindex = 3
+
+;Visualinfo
+
+textured      = Lamppost_001_D2.dds
+effect        =
+;effect        = effectbank\ps_3_0\entities\static\norm_alphaspec_tangentbasis.fx
+castshadow    = 1

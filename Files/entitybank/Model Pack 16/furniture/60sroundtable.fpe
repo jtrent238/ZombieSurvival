@@ -1,0 +1,34 @@
+
+;header
+
+desc          = 1960's Coffee Table
+
+;ai
+aiinit	      = appear1.fpi
+aimain	      = default.fpi
+aidestroy     = disappear1.fpi
+
+;spawn
+spawnmax      = 0
+spawndelay    = 0
+spawnqty      = 0
+
+;orientation
+
+model         = meshbank\benge\scenery\furniture\60sroundtable\60sroundtable.x
+offx          = 0
+offy          = 0
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+defaultstatic = 1
+materialindex = 4
+
+;statistics
+
+;visualinfo
+
+textured      = texturebank\benge\scenery\furniture\60sroundtable\60sroundtable_D2.tga
+castshadow    = 1
+

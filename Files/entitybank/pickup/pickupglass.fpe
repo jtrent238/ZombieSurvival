@@ -1,0 +1,55 @@
+;header
+desc             = pickupglass
+
+;visualinfo
+textured         = pickupglass.png
+effect           = effectbank\reloaded\entity_basic.fx
+castshadow       = 0
+transparency     = 6
+cullmode         = 1
+isimmobile    = 1
+
+;orientation
+model            = pickupglass.x
+offx             = 0
+offy             = 0
+offz             = 0
+rotx             = 0
+roty             = 0
+rotz             = 0
+scale            = 100
+collisionmode    = 1
+defaultstatic    = 0
+materialindex    = 0
+matrixmode       = 0
+
+
+
+;physics shapes
+physicscount     = 1
+physics0         = "0,746.744995117,356.700561523,728.114074707,0,0,0,0,0,0"
+
+;identity details
+ischaracter      = 0
+hasweapon        = 
+isobjective      = 2
+cantakeweapon    = 0
+;effect        = effectbank\reloaded\water_basic.fx
+
+;statistics
+strength         = 25
+explodable       = 0
+debrisshape      = 0
+
+;ai
+aimain           = default.lua
+
+;spawn
+spawnmax         = 0
+spawndelay       = 0
+spawnqty         = 0
+
+;anim
+animmax          = 0
+anim0            = 0,0
+playanimineditor = 0

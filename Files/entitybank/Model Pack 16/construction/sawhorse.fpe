@@ -1,0 +1,37 @@
+
+;header
+
+desc          = Saw horse
+
+;ai
+aiinit	      = appear1.fpi
+aimain	      = default.fpi
+aidestroy     = disappear1.fpi
+
+;spawn
+spawnmax      = 0
+spawndelay    = 0
+spawnqty      = 0
+
+;orientation
+
+model         = meshbank\benge\scenery\furniture\sawhorse\sawhorse.x
+offx          = 0
+offy          = 0
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+defaultstatic = 0
+materialindex = 4
+
+;statistics
+strength      = 50
+explodable    = 0
+debrisshape   = 7
+
+;visualinfo
+
+textured      = texturebank\benge\scenery\furniture\sawhorse\sawhorse_D2.tga
+castshadow    = 1
+

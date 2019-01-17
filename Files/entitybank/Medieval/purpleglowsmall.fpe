@@ -1,0 +1,58 @@
+;Saved by FPSCR Object Importer v1.000
+;header
+desc             = purpleglowsmall
+
+;visualinfo
+textured         = glowstonepurple_D.dds
+effect           = effectbank\reloaded\entity_basic.fx
+castshadow       = 0
+transparency     = 0
+
+;orientation
+model            = glowstone.x
+offx             = 0
+offy             = 0
+offz             = 0
+rotx             = 0
+roty             = 0
+rotz             = 0
+scale            = 8
+collisionmode    = 0
+defaultstatic    = 1
+materialindex    = 0
+
+;physics shapes
+physicscount     = 1
+physics0         = "0,198.890106201,200.116378784,170.759918213,0,0,0,0,0,0"
+
+;identity details
+ischaracter      = 0
+hasweapon        = 
+isobjective      = 1
+cantakeweapon    = 0
+
+;statistics
+strength         = 25
+explodable       = 0
+debrisshape      = 0
+
+;ai
+aiinit           = appear.lua
+aimain           = ai_charge.lua
+aidestroy        = disappear.lua
+
+;spawn
+spawnmax         = 0
+spawndelay       = 0
+spawnqty         = 0
+
+;anim
+animmax          = 0
+anim0            = 0,0
+playanimineditor = 0
+
+;settings not understood by the exporter
+cantakeweapon    = 0
+animmax          = 0
+anim0            = 0,0
+playanimineditor = 0

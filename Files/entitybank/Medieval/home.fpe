@@ -1,0 +1,52 @@
+;Saved by FPSCR Object Importer v1.000
+;header
+desc             = home
+
+;visualinfo
+textured         = home_d.dds
+effect           = effectbank\reloaded\entity_basic.fx
+castshadow       = 0
+transparency     = 0
+
+;orientation
+model            = home.X
+offx             = 0
+offy             = 0
+offz             = 0
+rotx             = 0
+roty             = 0
+rotz             = 0
+scale            = 200
+collisionmode    = 0
+defaultstatic    = 1
+materialindex    = 0
+
+;physics shapes
+physicscount     = 1
+physics0         = "0,22.8015804291,30.4000015259,0.979176461697,0,0,0,0,0,0"
+
+;identity details
+ischaracter      = 0
+hasweapon        = 
+isobjective      = 1
+cantakeweapon    = 0
+
+;statistics
+strength         = 25
+explodable       = 0
+debrisshape      = 0
+
+;ai
+aiinit           = appear.lua
+aimain           = default.lua
+aidestroy        = disappear.lua
+
+;spawn
+spawnmax         = 0
+spawndelay       = 0
+spawnqty         = 0
+
+;anim
+animmax          = 0
+anim0            = 0,0
+playanimineditor = 0

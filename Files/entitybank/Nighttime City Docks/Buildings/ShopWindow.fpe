@@ -1,0 +1,38 @@
+;Night City Pack - created by Disturbing13 (George Patterson)
+;header
+
+desc          = ShopWindow
+
+;AI
+
+aidestroy     = destroy\window.fpi
+
+;Spawn
+spawnmax      = 0
+spawndelay    = 0
+spawnqty      = 0
+
+;Orientation
+model         = ShopWindow.x
+offx          = 0
+offy          = 0
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+materialindex = 5
+
+;Identity Details (0=indestructable)
+isimmobile    = 1
+strength      = 10
+
+;Visualinfo
+textured      = ShopWindow_D2.dds
+transparency  = 2
+
+;Decals
+decalmax      = 1
+decal0        = glass_shatter
+
+;Animationinfo
+animmax       = 0

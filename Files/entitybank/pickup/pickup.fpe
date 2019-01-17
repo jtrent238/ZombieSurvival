@@ -1,0 +1,52 @@
+;Saved by FPSCR Object Importer v1.000
+;header
+desc             = pickup
+
+;visualinfo
+textured         = pickup_D.dds
+effect           = effectbank\reloaded\entity_basic.fx
+castshadow       = 0
+transparency     = 0
+
+;orientation
+model            = pickup.x
+offx             = 0
+offy             = 0
+offz             = 0
+rotx             = 0
+roty             = 0
+rotz             = 0
+scale            = 100
+collisionmode    = 1
+defaultstatic    = 1
+materialindex    = 2
+matrixmode       = 0
+cullmode         = 0
+
+;physics shapes
+physicscount     = 1
+physics0         = "0,255.46043396,80.1030578613,395.292053223,0,0,0,0,0,0"
+
+;identity details
+ischaracter      = 0
+hasweapon        = 
+isobjective      = 2
+cantakeweapon    = 0
+
+;statistics
+strength         = 25
+explodable       = 0
+debrisshape      = 0
+
+;ai
+aimain           = default.lua
+
+;spawn
+spawnmax         = 0
+spawndelay       = 0
+spawnqty         = 0
+
+;anim
+animmax          = 0
+anim0            = 0,0
+playanimineditor = 0

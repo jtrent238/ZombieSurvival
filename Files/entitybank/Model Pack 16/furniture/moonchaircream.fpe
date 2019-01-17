@@ -1,0 +1,34 @@
+
+;header
+
+desc          = 1960's Cream Moonchair
+
+;ai
+aiinit	      = appear1.fpi
+aimain	      = default.fpi
+aidestroy     = disappear1.fpi
+
+;spawn
+spawnmax      = 0
+spawndelay    = 0
+spawnqty      = 0
+
+;orientation
+
+model         = meshbank\benge\scenery\furniture\moonchair\moonchair.x
+offx          = 0
+offy          = 0
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+defaultstatic = 1
+materialindex = 1
+
+;statistics
+
+;visualinfo
+
+textured      = texturebank\benge\scenery\furniture\moonchaircream\moonchaircream_D2.tga
+castshadow    = 1
+

@@ -1,0 +1,42 @@
+;Entity Spec
+
+;Header
+desc          = Biohazard Triangle Sign
+
+;AI
+aiinit	      = appear1.fpi
+aimain	      = default.fpi
+aidestroy     = disappear1.fpi
+
+;Spawn
+spawnmax      = 0
+spawndelay    = 0
+spawnqty      = 0
+
+;Orientation
+model         = biohazard_sym_tri.x
+offx          = 0
+offy          = 1
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+scale         = 100
+forwardfacing = 1
+fixnewy       = 0
+collisionmode = 4
+defaultstatic = 0
+
+;Visualinfo
+textured      = radiation_sym_triangle_D2.dds
+effect        =
+transparency  = 4
+
+;Identity Details
+strength      = 0
+isweapon      = 0
+isammo	      = 0
+isimmobile    = 1
+
+;Specific Data
+quantity      = 0
