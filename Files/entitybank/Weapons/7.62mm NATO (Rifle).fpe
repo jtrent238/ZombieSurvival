@@ -1,0 +1,43 @@
+;header
+desc          = 7.62mm NATO (Rifle)
+
+;Identity Details
+isammo	      = 1
+hasweapon     = modern\sniperm700
+quantity      = 10
+isimmobile    = 1
+
+;ai
+aiinit	      = 
+aimain	      = ammo.lua
+aidestroy     = 
+
+;visualinfo
+textured      = gamecore\ammo\rifle\rifleammo_D.dds
+effect        = effectbank\reloaded\entity_basic.fx
+castshadow    = 0
+
+;orientation
+model         = gamecore\ammo\rifle\rifleammo.X
+offx          = 0
+offy          = 0
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+defaultstatic = 0
+materialindex = 0
+
+;Sound
+soundset      = audiobank\misc\ammo.wav
+
+;statistics
+strength      = 0
+explodable    = 0
+debrisshape   = 0
+
+;spawn
+spawnmax      = 0
+spawndelay    = 0
+spawnqty      = 0
+

@@ -1,0 +1,45 @@
+;header
+desc          = Crypt Gates (Animated)
+
+;visualinfo
+textured      = Gates_D.dds
+effect        = effectbank\reloaded\character_basic.fx
+castshadow    = 0
+
+;ai
+aiinit	      = appear.lua
+aimain	      = door.lua
+aidestroy     = disappear.lua
+
+;Sound
+soundset      = audiobank\misc\open.wav
+soundset1     = audiobank\misc\close.wav
+
+;orientation
+model         = crypt_gate.x
+offx          = 0
+offy          = 0
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+defaultstatic = 0
+materialindex = 3
+isimmobile    = 1
+
+;statistics
+strength      = 25
+explodable    = 0
+debrisshape   = 1
+
+;spawn
+spawnmax      = 0
+spawndelay    = 0
+spawnqty      = 0
+
+;anim
+animmax       = 2
+anim0         = 0,50
+anim1         = 51,100
+
+playanimineditor = 0

@@ -1,0 +1,67 @@
+;header
+desc          = zombie7b
+;visualinfo
+textured      = zombie7_color.dds
+effect        = effectbank\reloaded\character_basic.fx
+castshadow    = 0
+
+;orientation
+model         = zombie7b.x
+offx          = 0
+offy          = 0
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+scale         = 100
+defaultstatic = 0
+materialindex = 0
+collisionmode = 1
+speed         = 300
+animationspeed = 100
+fixnewy = 0
+alwaysactive = 0
+forcesimpleobstacle = 3
+;skipfvfconvert = 1
+ischaracter   = 1
+isobjective   = 0
+
+
+;statistics
+strength      = 400
+explodable    = 0
+debrisshape   = 0
+;rateoffire    = 100
+
+;identity details
+ischaracter   = 1
+
+;ai
+aimain	  = zombies2.lua
+
+;spawn
+spawnmax      = 0
+spawndelay    = 0
+spawnqty      = 0
+
+;Sound
+soundset      = audiobank\zombies\Female_Zombie_Groan_1.wav
+soundset1     = audiobank\zombies\Female_Zombie_Attack.wav
+soundset2     = 
+soundset3     = audiobank\zombies\Female_Zombie_Death.wav
+soundset4     = audiobank\zombies\zombie_melee_hit.wav
+animmax       = 5
+
+anim0         = 204,225 ; walk
+anim1         = 2,117 ; idle
+anim2         = 120,201 ; standup, warning
+anim3         = 228,364 ; attack
+anim4         = 367,448 ;dead
+playanimineditor = 0
+
+
+csi_relaxed1 			= 2,117
+
+csi_unarmedmovefore 		= 204,225
+csi_unarmed1 			= 228,364
+csi_unarmed2 			= 228,364

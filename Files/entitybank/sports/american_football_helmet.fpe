@@ -1,0 +1,33 @@
+
+;header
+
+desc          = American Football Helmet
+;ai
+aiinit	      = appear1.fpi
+aimain	      = default.fpi
+aidestroy     = disappear1.fpi
+
+;spawn
+spawnmax      = 0
+spawndelay    = 0
+spawnqty      = 0
+
+;orientation
+
+model         = american_football_helmet.x
+offx          = 0
+offy          = 0
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+defaultstatic = 1
+materialindex = 4
+collisionmode = 1
+
+;visualinfo
+
+textured      = american_football_helmet.dds
+effect        = 
+castshadow    = 0
+

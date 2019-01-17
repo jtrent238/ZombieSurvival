@@ -1,0 +1,39 @@
+;Entity Spec
+
+;Header
+
+desc          = Fire Staff 
+;AI
+aimain	      = weapon.lua
+;Spawn
+spawnmax      = 1
+spawndelay    = 5000
+spawnqty      = 1
+
+;Itemproperties
+defaultstatic = 0
+materialindex = 3
+collisionmode = 0
+debrisshape   = 0
+explodable    = 0
+
+;Orientation
+
+model         = Staff.x
+scale         = 100
+rotz          = 90
+texturepath   = 
+textured      = staff_D.dds
+reducetexture = 
+transparency  = 1
+isimmobile    = 1
+defaultheight = 5
+
+;Identity Details
+isweapon      = fantasy\STAFF
+quantity      = 1
+speed         = 100
+
+;Decals
+decalmax      = 1
+decal0        = glowred

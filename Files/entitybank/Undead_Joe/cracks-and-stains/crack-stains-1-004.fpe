@@ -1,0 +1,30 @@
+;header
+desc          = crack-stains-1-004
+
+
+;visualinfo
+textured      = crack-stains-1-004_D.png
+effect        = effectbank\reloaded\entity_basic.fx
+castshadow    = -1
+transparency  = 6
+
+;orientation
+model         = crack-stains-1-004.x
+offx          = 0
+offy          = 0
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+defaultstatic = 1
+defaultheight = 1
+materialindex = 3
+collisionmode = 0
+forcesimpleobstacle = -1
+
+;statistics
+strength      = 0
+explodable    = 0
+
+;ai
+aimain	      = default.lua

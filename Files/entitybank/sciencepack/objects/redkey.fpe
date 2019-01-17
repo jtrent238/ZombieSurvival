@@ -1,0 +1,36 @@
+
+;header
+desc          = %key
+
+;ai
+aiinit	      = appear1.fpi
+aimain	      = pickupkey.fpi
+aidestroy     = disappear1.fpi
+
+;spawn
+spawnmax      = 0
+spawndelay    = 0
+spawnqty      = 0
+
+;orientation
+
+model         = redkey.x
+offx          = 0
+offy          = 0
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+
+
+
+materialindex = 4
+defaultstatic = 0
+collisionmode = 2
+
+;visualinfo
+
+textured      = keys.dds
+effect        = 
+castshadow    = 0
+

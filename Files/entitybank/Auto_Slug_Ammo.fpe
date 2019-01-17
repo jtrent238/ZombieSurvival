@@ -1,0 +1,54 @@
+;Entity Spec
+
+;Header
+desc          = Auto_Slug_Ammo
+
+;Identity Details
+isammo	      = 1
+hasweapon     = sci_fi\auto_slug
+quantity      = 60
+isimmobile    = 1
+
+;ai
+aiinit	      = 
+aimain	      = ammo.lua
+aidestroy     = 
+
+;Visualinfo
+textured      = gamecore\guns\sci_fi\auto_slug\ammo_D2.dds
+reducetexture = -1
+transparency  = 1
+effect        = effectbank\reloaded\entity_basic.fx
+castshadow    = 0
+
+;Orientation
+model         = Auto_Slug_Ammo.X
+offx          = 0
+offy          = 0
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+scale         = 100
+fixnewy       = 0
+defaultstatic = 0
+materialindex = 2
+scale         = 100
+
+;Sound
+soundset      = audiobank\misc\ammo.wav
+
+;statistics
+strength      = 100
+collisionmode = 1
+debrisshape   = 0
+explodable    = 0
+
+;Spawn
+spawnmax      = 1
+spawndelay    = 500
+spawnqty      = 1
+
+;Decals
+decalmax      = 1
+decal0        = glowzone

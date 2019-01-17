@@ -1,0 +1,54 @@
+;Saved by FPSCR Object Importer v1.000
+;header
+desc             = crack-stains-1-003
+
+;visualinfo
+textured         = crack-stains-1-003_D.png
+effect           = effectbank\reloaded\entity_basic.fx
+castshadow       = 0
+transparency     = 0
+
+;orientation
+model            = crack-stains-1-003.x
+offx             = 0
+offy             = 0
+offz             = 0
+rotx             = 0
+roty             = 92
+rotz             = 0
+scale            = 1905
+collisionmode    = 0
+defaultstatic    = 1
+materialindex    = 3
+matrixmode       = 0
+cullmode         = 0
+
+;physics shapes
+physicscount     = 1
+physics0         = "0,0.044689964503,4.93029785156,4.93049955368,0,0,0,0,0,0"
+
+;identity details
+ischaracter      = 0
+hasweapon        = 
+isobjective      = 2
+cantakeweapon    = 0
+
+;statistics
+strength         = 0
+explodable       = 0
+debrisshape      = 0
+
+;ai
+aimain           = default.lua
+
+;spawn
+spawnmax         = 0
+spawndelay       = 0
+spawnqty         = 0
+
+;anim
+animmax          = 0
+anim0            = 0,0
+playanimineditor = 0
+
+

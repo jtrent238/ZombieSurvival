@@ -1,0 +1,40 @@
+
+;header
+desc          = Classroom Door with glass 2(auto)
+
+;ai
+aiinit	      = appear1.fpi
+aimain	      = autodoor.fpi
+aidestroy     = disappear1.fpi
+
+;AIKey (plrhaskey=1)
+usekey        = %key
+;spawn
+spawnmax      = 0
+spawndelay    = 0
+spawnqty      = 0
+
+;orientation
+model         = classdoor3.x
+offx          = 0
+offy          = 50
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+materialindex = 3
+soundset      = audiobank\sciencepack\open.wav
+soundset1     = audiobank\sciencepack\close.wav
+
+;visualinfo
+textured      = classdoor2.dds
+effect        = 
+
+;identity details
+strength      = 0
+isimmobile    = 1
+
+;animationinfo
+animmax       = 1
+anim0         = 0,25
+

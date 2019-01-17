@@ -1,0 +1,59 @@
+;Entity Spec
+
+
+;Header
+
+desc          = Vickers
+
+
+;Identity Details
+isweapon      = sci_fi\vickers
+quantity      = 125
+speed         = 100
+isimmobile    = 1
+speed         = 100
+
+;ai
+aiinit	      = 
+aimain	      = weapon.lua
+aidestroy     =
+
+
+;visualinfo
+textured      = gamecore\guns\sci_fi\vickers\gun_D2.dds
+reducetexture = -1
+transparency  = 1
+effect        = effectbank\reloaded\entity_basic.fx
+castshadow    = 0
+
+;Orientation
+model         = Vickers.X
+scale         = 100
+offx          = 0
+offy          = 0
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+fixnewy       = 90
+defaultstatic = 0
+materialindex = 2
+
+;statistics
+strength      = 0
+collisionmode = 1
+debrisshape   = 0
+explodable    = 0
+
+;Sound
+soundset      = audiobank\misc\weapon.wav
+
+;Spawn
+spawnmax      = 1
+spawndelay    = 3000
+spawnqty      = 1
+
+
+;Decals
+decalmax      = 1
+decal0        = glowzone

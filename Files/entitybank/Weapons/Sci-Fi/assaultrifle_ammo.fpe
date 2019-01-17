@@ -1,0 +1,50 @@
+;Entity Spec
+
+;Header
+desc          = assaultrifle_ammo
+
+;AI
+
+aimain	      = ammo.lua
+
+
+;Spawn
+spawnmax      = 1
+spawndelay    = 500
+spawnqty      = 1
+
+;Itemproperties
+defaultstatic = 0
+materialindex = 3
+debrisshape   = 0
+explodable    = 0
+
+;Orientation
+model         = assaultrifle_ammo.X
+offx          = 0
+offy          = 0
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+scale         = 100
+fixnewy       = 0
+
+;Visualinfo
+textured      = ammo_D2.dds
+effect        = effectbank\reloaded\entity_basic.fx
+isimmobile    = 1
+castshadow    = 0
+
+;Identity Details
+isammo	      = 1
+hasweapon     = scifi\assaultrifle
+
+;Specific Data
+quantity      = 1
+
+;Decals
+decalmax      = 1
+decal0        = glowzone
+
+soundset      = audiobank\misc\ammo.wav

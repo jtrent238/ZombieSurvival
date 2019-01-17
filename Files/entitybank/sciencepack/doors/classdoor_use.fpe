@@ -1,0 +1,38 @@
+
+;header
+desc          = Classroom Door (use)
+
+;ai
+aiinit	      = appear1.fpi
+aimain	      = dooruse.fpi
+aidestroy     = disappear1.fpi
+
+;spawn
+spawnmax      = 0
+spawndelay    = 0
+spawnqty      = 0
+
+;orientation
+model         = classdoor.x
+offx          = 0
+offy          = 50
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+materialindex = 3
+soundset      = audiobank\sciencepack\open.wav
+soundset1     = audiobank\sciencepack\close.wav
+
+;visualinfo
+textured      = classdoor.dds
+effect        = 
+
+;identity details
+strength      = 0
+isimmobile    = 1
+
+;animationinfo
+animmax       = 1
+anim0         = 0,30
+

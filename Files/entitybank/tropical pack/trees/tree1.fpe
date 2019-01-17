@@ -1,0 +1,39 @@
+
+;header
+
+desc          = Tree 1
+;ai
+aiinit	      = appear2.fpi
+aimain	      = default.fpi
+aidestroy     = disappear1.fpi
+
+;spawn
+spawnmax      = 0
+spawndelay    = 0
+spawnqty      = 0
+
+;orientation
+
+model         = tree1.x
+offx          = 0
+offy          = 0
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+defaultstatic = 1
+materialindex = 4
+isimmobile    = 1
+
+;new collision mode (1000 + 3 = limb 3 should be solid, rest are walk-thru)
+collisionmode = 1003
+
+;visualinfo
+
+
+textured      = tree1.dds
+transparency  = 1
+effect        = 
+castshadow    = 1
+
+

@@ -1,0 +1,53 @@
+;Saved by FPSCR Object Importer v1.000
+;header
+desc             = Modular Wall (1)
+
+;visualinfo
+textured         = mod wall_D.dds
+effect           = effectbank\reloaded\entity_basic.fx
+castshadow       = 0
+transparency     = 0
+
+;orientation
+model            = modular wall (1).x
+offx             = 0
+offy             = 0
+offz             = 0
+rotx             = 0
+roty             = 0
+rotz             = 0
+scale            = 100
+collisionmode    = 40
+defaultstatic    = 1
+materialindex    = 1
+forcesimpleobstacle = 1
+
+;physics shapes
+physicscount     = 1
+physics0         = "0,395.73916626,229.189468384,38.8989601135,1.34148800373,-42.9276351929,-8.04893016815,0,0,0"
+
+;identity details
+ischaracter      = 0
+hasweapon        = 
+isobjective      = 1
+cantakeweapon    = 0
+
+;statistics
+strength         = 25
+explodable       = 0
+debrisshape      = 1
+
+;ai
+aiinit           = appear.lua
+aimain           = default.lua
+aidestroy        = disappear.lua
+
+;spawn
+spawnmax         = 0
+spawndelay       = 0
+spawnqty         = 0
+
+;anim
+animmax          = 0
+anim0            = 0,0
+playanimineditor = 0

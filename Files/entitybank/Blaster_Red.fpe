@@ -1,0 +1,54 @@
+;Entity Spec
+
+;Header
+
+desc          = Blaster_Red
+
+;Identity Details
+isweapon      = sci_fi\blaster_red
+isimmobile    = 1
+quantity      = 12
+speed         = 100
+
+;ai
+aiinit	      = 
+aimain	      = weapon.lua
+aidestroy     = 
+
+;visualinfo
+textured      = gamecore\guns\sci_fi\blaster_red\gun_D2.dds
+reducetexture = -1
+transparency  = 1
+effect        = effectbank\reloaded\entity_basic.fx
+castshadow    = 0
+
+;Orientation
+model         = Blaster_Red.X
+offx          = 0
+offy          = 0
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+fixnewy       = 90
+defaultstatic = 0
+materialindex = 2
+scale         = 100
+
+;Sound
+soundset      = audiobank\misc\weapon.wav
+
+;statistics
+strength      = 100
+collisionmode = 1
+debrisshape   = 0
+explodable    = 0
+
+;Spawn
+spawnmax      = 1
+spawndelay    = 3000
+spawnqty      = 1
+	
+;Decals
+decalmax      = 2
+decal0        = shockwave

@@ -1,0 +1,68 @@
+;header
+desc          = zombie6a
+;visualinfo
+textured      = zombie6_color.dds
+effect        = effectbank\reloaded\character_basic.fx
+castshadow    = 0
+
+;orientation
+model         = zombie6a.x
+offx          = 0
+offy          = 0
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+scale         = 100
+defaultstatic = 0
+materialindex = 0
+collisionmode = 1
+speed         = 100
+;animation speed         = 100
+fixnewy = 0
+alwaysactive = 0
+forcesimpleobstacle = 3
+;skipfvfconvert = 1
+ischaracter   = 1
+isobjective   = 0
+
+
+;statistics
+strength      = 45
+explodable    = 0
+debrisshape   = 0
+;rateoffire    = 100
+
+;identity details
+ischaracter   = 1
+
+;ai
+aimain	  = zombies.lua
+
+;spawn
+spawnmax      = 0
+spawndelay    = 0
+spawnqty      = 0
+
+;Sound
+soundset      = audiobank\zombies\Male_Zombie_Groan_1.wav
+soundset1     = audiobank\zombies\Male_Zombie_Attack.wav
+soundset2     = audiobank\zombies\malezombie_eating.wav
+soundset3     = audiobank\zombies\Male_Zombie_Death.wav
+soundset4     = audiobank\zombies\zombie_melee_hit.wav
+
+animmax       = 5
+
+anim0         = 278,336 ; walk
+anim1         = 2,193 ; idle
+anim2         = 196,275 ; standup, warning
+anim3         = 339,412 ; attack
+anim4         = 415,511 ;dead
+playanimineditor = 0
+
+
+csi_relaxed1 			= 2,193
+
+csi_unarmedmovefore 		= 278,336
+csi_unarmed1 			= 339,412
+csi_unarmed2 			= 339,412

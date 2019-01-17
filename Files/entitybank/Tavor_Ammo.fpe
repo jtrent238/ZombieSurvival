@@ -1,0 +1,52 @@
+;Entity Spec
+
+;Header
+desc          = Tavor_Ammo
+
+
+;Identity Details
+isammo	      = 1
+hasweapon     = sci_fi\tavor
+quantity      = 50
+speed         = 100
+isimmobile    = 1
+
+;ai
+aiinit	      = 
+aimain	      = ammo.lua
+aidestroy     = 
+
+;Visualinfo
+textured      = gamecore\guns\sci_fi\tavor\ammo_D2.dds
+reducetexture = -1
+transparency  = 1
+effect        = effectbank\phong_bump_specular\phong_bump_specular.fx
+castshadow    = 0
+
+
+;Orientation
+model         = Tavor_Ammo.X
+offx          = 0
+offy          = 0
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+fixnewy       = 90
+defaultstatic = 0
+materialindex = 2
+scale         = 100
+
+;Sound
+soundset      = audiobank\misc\weapon.wav
+
+
+;Spawn
+spawnmax      = 1
+spawndelay    = 500
+spawnqty      = 1
+
+
+;Decals
+decalmax      = 1
+decal0        = glowzone

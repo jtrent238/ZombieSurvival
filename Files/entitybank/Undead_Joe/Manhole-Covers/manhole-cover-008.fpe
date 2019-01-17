@@ -1,0 +1,43 @@
+;header
+desc          = manhole-cover-008
+
+;visualinfo
+textured      = manhole-cover-008_d.png
+effect        = effectbank\reloaded\entity_basic.fx
+castshadow    = 0
+transparency  = 1
+cullmode      = 1
+
+;orientation
+model         = manhole-cover-008.x
+offx          = 0
+offy          = 0
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+defaultstatic = 1
+materialindex = 3
+collisionmode = 1
+
+;LOD System
+disablebatch = 1
+lod1distance = 1500
+lod2distance = 2500
+
+;statistics
+strength      = 25
+explodable    = 0
+debrisshape   = 1
+
+;ai
+aiinit	      = appear.lua
+aimain	      = default.lua
+aidestroy     = disappear.lua
+
+;spawn
+spawnmax      = 0
+spawndelay    = 0
+spawnqty      = 0
+
+

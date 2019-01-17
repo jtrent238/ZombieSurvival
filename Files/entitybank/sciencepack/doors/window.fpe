@@ -1,0 +1,39 @@
+
+;header
+
+desc          = Window
+;ai
+aiinit	      = appear1.fpi
+aimain	      = dooruse.fpi
+aidestroy     = disappear1.fpi
+
+;spawn
+spawnmax      = 0
+spawndelay    = 0
+spawnqty      = 0
+
+;orientation
+
+model         = window.x
+offx          = 0
+offy          = 0
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+
+materialindex = 4
+defaultstatic = 0
+isimmobile    = 1
+collisionmode = 2
+
+;visualinfo
+
+textured      = window.dds
+effect        = 
+castshadow    = 0
+
+;animationinfo
+animmax       = 1
+anim0         = 0,20
+
