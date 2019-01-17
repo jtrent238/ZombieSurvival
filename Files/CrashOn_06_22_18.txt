@@ -1,0 +1,5 @@
+[COMMON]
+PathToEXE=C:\Program Files (x86)\The Game Creators\GameGuru\Files\CrashOn_06_22_18.txt
+[CEXE]
+m_dwRuntimeErrorDWORD=Internal Code:12002
+m_dwRuntimeErrorLineDWORD=20446
