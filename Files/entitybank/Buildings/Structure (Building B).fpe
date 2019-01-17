@@ -1,0 +1,58 @@
+;Saved by FPSCR Object Importer v1.000
+;header
+desc             = Structure (Building B)
+
+;visualinfo
+textured         = structurebuildingaandb_D.dds
+effect           = effectbank\reloaded\entity_basic.fx
+castshadow       = 0
+transparency     = 0
+
+;orientation
+model            = structure (building b).x
+offx             = 0
+offy             = 0
+offz             = 0
+rotx             = 0
+roty             = 0
+rotz             = 0
+scale            = 100
+collisionmode    = 40
+defaultstatic    = 1
+materialindex    = 3
+
+;physics shapes
+physicscount     = 4
+physics0         = "0,18.5005073547,131.69581604,581.738220215,-135.669967651,-59.612739563,2.05561089516,0,0,0"
+physics1         = "0,18.5005073547,131.695800781,581.738220215,127.448326111,-59.6127357483,2.05562472343,0,0,0"
+physics2         = "0,281.618774414,131.69581604,10.2780590057,-4.11081600189,-59.612739563,287.785736084,0,0,0"
+physics3         = "0,281.618774414,131.69581604,10.2780590057,-4.11081600189,-59.612739563,-283.674346924,0,0,0"
+
+;identity details
+ischaracter      = 0
+hasweapon        = 
+isobjective      = 1
+cantakeweapon    = 0
+
+;statistics
+strength         = 25
+explodable       = 0
+debrisshape      = 1
+
+;ai
+aiinit           = appear.lua
+aimain           = default.lua
+aidestroy        = disappear.lua
+
+;spawn
+spawnmax         = 0
+spawndelay       = 0
+spawnqty         = 0
+
+;anim
+animmax          = 0
+anim0            = 0,0
+playanimineditor = 0
+
+;settings not understood by the exporter
+autoflatten   = 1

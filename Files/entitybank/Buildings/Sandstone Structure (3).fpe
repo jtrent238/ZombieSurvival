@@ -1,0 +1,56 @@
+;Saved by FPSCR Object Importer v1.000
+;header
+desc             = Sandstone Structure (3)
+
+;visualinfo
+textured         = combat building_D.dds
+effect           = effectbank\reloaded\entity_basic.fx
+castshadow       = 0
+transparency     = 0
+
+;orientation
+model            = sandstone structure (3).X
+offx             = 0
+offy             = 0
+offz             = 0
+rotx             = 0
+roty             = 0
+rotz             = 0
+scale            = 100
+collisionmode    = 40
+defaultstatic    = 1
+materialindex    = 3
+forcesimpleobstacle = 3
+
+;physics shapes
+physicscount     = 1
+physics0         = "0,202.924484253,199.297851563,205.090896606,-10.3843402863,-1.73072433472,-6.03481475991e-006,0,0,0"
+
+;identity details
+ischaracter      = 0
+hasweapon        = 
+isobjective      = 1
+cantakeweapon    = 0
+
+;statistics
+strength         = 25
+explodable       = 0
+debrisshape      = 1
+
+;ai
+aiinit           = appear.lua
+aimain           = default.lua
+aidestroy        = disappear.lua
+
+;spawn
+spawnmax         = 0
+spawndelay       = 0
+spawnqty         = 0
+
+;anim
+animmax          = 0
+anim0            = 0,0
+playanimineditor = 0
+
+;settings not understood by the exporter
+autoflatten   = 1

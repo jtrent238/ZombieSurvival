@@ -1,0 +1,42 @@
+;header
+desc          = Hedgehog (Explosive)
+
+;visualinfo
+textured      = hedgehog_D.dds
+effect        = effectbank\reloaded\entity_basic.fx
+castshadow    = 0
+
+;orientation
+model         = hedgehog.x
+offx          = 0
+offy          = 0
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+defaultstatic = 0
+materialindex = 2
+collisionmode = 0
+isimmobile    = 1
+
+;LOD System
+disablebatch = 1
+lod1distance = 1000
+lod2distance = 1500
+
+;statistics
+strength      = 25
+explodable    = 1
+debrisshape   = 1
+
+;ai
+aimain	      = proximine.lua
+
+;spawn
+spawnmax      = 0
+spawndelay    = 0
+spawnqty      = 0
+
+soundset      = audiobank\misc\minecountdown.wav
+
+

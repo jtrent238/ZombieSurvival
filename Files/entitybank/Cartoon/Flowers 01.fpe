@@ -1,0 +1,42 @@
+;header
+desc          = Flowers 01
+
+;visualinfo
+textured      = flowers01_D.dds
+effect        = effectbank\reloaded\entity_basic.fx
+cullmode      = 1
+castshadow    = 0
+
+;orientation
+model         = flowers01.x
+offx          = 0
+offy          = 0
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+defaultstatic = 0
+materialindex = 3
+collisionmode = 11
+isimmobile    = 1
+resetlimbmatrix = 1
+
+;LOD System
+disablebatch = 1
+lod1distance = 500
+lod2distance = 600
+
+;statistics
+strength      = 25
+explodable    = 0
+debrisshape   = 1
+
+;ai
+aimain	      = default.lua
+
+;spawn
+spawnmax      = 0
+spawndelay    = 0
+spawnqty      = 0
+
+

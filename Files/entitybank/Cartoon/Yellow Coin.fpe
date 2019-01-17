@@ -1,0 +1,55 @@
+;Entity Spec
+
+;Header
+desc          = Yellow Coin
+
+;AI
+aimain	      = health.lua
+
+;Sound
+soundset      = audiobank\misc\item.wav
+
+;AIUsed
+usekey        = 
+ifused        = 
+ifusednear    = 
+
+;Spawn
+spawnmax      = 0
+spawndelay    = 0
+spawnqty      = 0
+
+;Itemproperties
+defaultstatic = 0
+materialindex = 3
+collisionmode = 0
+debrisshape   = 0
+explodable    = 0
+isimmobile    = 1
+
+;LOD System
+disablebatch = 1
+lod1distance = 1000
+lod2distance = 1500
+
+
+;Orientation
+model         = yellow_coin.X
+offy          = 5
+scale         = 100
+fixnewy       = 0
+
+;Visualinfo
+;visualinfo
+textured      = yellow_coin_D.dds
+effect        = effectbank\reloaded\character_basic.fx
+castshadow    = 0
+
+;Decals
+decalmax      = 1
+decal0        = glow
+
+;anim
+animmax       = 1
+anim0         = 0,9
+playanimineditor = 1

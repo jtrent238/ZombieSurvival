@@ -1,0 +1,40 @@
+
+
+;header
+
+desc          = Zombie Gibs - Torso Down
+
+;ai
+
+aimain	      = default.lua
+
+;spawn
+spawnmax      = 0
+spawndelay    = 0
+spawnqty      = 0
+
+;orientation
+
+model         = zombie gibs_torsodown.x
+offx          = 0
+offy          = 0
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+defaultstatic = 1
+materialindex = 1
+collisionmode = 0
+reducetexture = -1
+forcesimpleobstacle = -1
+
+;statistics
+strength      = 
+explodable    = 0
+debrisshape   = 
+
+;visualinfo
+textured      = zombie gibs_torsodown_D2.dds
+effect        = 
+castshadow    = 0
+

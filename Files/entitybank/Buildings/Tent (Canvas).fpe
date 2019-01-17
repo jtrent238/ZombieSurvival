@@ -1,0 +1,62 @@
+;Saved by FPSCR Object Importer v1.000
+;header
+desc             = Tent (Canvas)
+
+;visualinfo
+textured         = tent (canvas)_D.dds
+effect           = effectbank\reloaded\entity_basic.fx
+castshadow       = 0
+transparency     = 0
+
+;orientation
+model            = tent (canvas).x
+offx             = 0
+offy             = 0
+offz             = 0
+rotx             = 0
+roty             = 0
+rotz             = 0
+scale            = 100
+collisionmode    = 40
+defaultstatic    = 1
+materialindex    = 3
+
+;physics shapes
+physicscount     = 8
+physics0         = "0,287.856658936,113.205886841,5.35049533844,4.28039598465,-31.0328674316,-146.424438477,7,0,0"
+physics1         = "0,287.856658936,113.205886841,5.35049533844,4.28041601181,-33.2477035522,144.651672363,7,180,0"
+physics2         = "0,287.856658936,153.208587646,5.35049533844,8.56082344055,52.9664115906,-68.4796524048,72,0,0"
+physics3         = "0,287.856658936,153.208587646,5.35049533844,8.56082344055,50.7614784241,70.6661529541,72,180,0"
+physics4         = "0,5.35049533844,117.486274719,86.3198165894,149.813858032,-28.8926677704,-95.2388153076,0,0,0"
+physics5         = "0,5.35049533844,117.486274719,86.3198165894,149.813858032,-28.8926677704,97.3790206909,0,0,0"
+physics6         = "0,5.35049533844,115.346076965,92.7404098511,-139.112884521,-27.8225688934,94.1687240601,0,0,0"
+physics7         = "0,5.35049533844,115.346076965,90.6002120972,-139.112884521,-27.8225688934,-95.2388153076,0,0,0"
+
+;identity details
+ischaracter      = 0
+hasweapon        = 
+isobjective      = 1
+cantakeweapon    = 0
+
+;statistics
+strength         = 25
+explodable       = 0
+debrisshape      = 1
+
+;ai
+aiinit           = appear.lua
+aimain           = default.lua
+aidestroy        = disappear.lua
+
+;spawn
+spawnmax         = 0
+spawndelay       = 0
+spawnqty         = 0
+
+;anim
+animmax          = 0
+anim0            = 0,0
+playanimineditor = 0
+
+;settings not understood by the exporter
+autoflatten   = 1

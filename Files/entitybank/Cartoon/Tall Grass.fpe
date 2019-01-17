@@ -1,0 +1,42 @@
+;header
+desc          = Tall Grass
+
+;visualinfo
+textured      = tall_grass_D.dds
+effect        = effectbank\reloaded\entity_basic.fx
+cullmode      = 1
+castshadow    = 0
+
+;orientation
+model         = tall_grass.x
+offx          = 0
+offy          = 0
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+defaultstatic = 1
+materialindex = 3
+collisionmode = 11
+scale         = 85
+resetlimbmatrix = 1
+
+;LOD System
+disablebatch = 1
+lod1distance = 800
+lod2distance = 1000
+
+;statistics
+strength      = 25
+explodable    = 0
+debrisshape   = 1
+
+;ai
+aimain	      = default.lua
+
+;spawn
+spawnmax      = 0
+spawndelay    = 0
+spawnqty      = 0
+
+
