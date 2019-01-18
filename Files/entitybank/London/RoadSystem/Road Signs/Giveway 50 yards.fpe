@@ -1,0 +1,35 @@
+
+;header
+
+desc          = Giveway 50 yards ahead
+;ai
+aiinit	      = appear1.fpi
+aimain	      = default.fpi
+aidestroy     = disappear1.fpi
+
+;spawn
+spawnmax      = 0
+spawndelay    = 0
+spawnqty      = 0
+
+;orientation
+
+model         = Meshbank\London\RoadSystem\RS_Giveway_50yds.x
+offx          = 0
+offy          = 0
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+defaultstatic = 1
+materialindex = 2
+strength      = 0
+collisionmode = 1
+isimmobile    = 1
+
+;visualinfo
+
+textured      = texturebank\London\RoadSystem\Road_Signs_D2.png
+effect        = 
+castshadow    = 0
+

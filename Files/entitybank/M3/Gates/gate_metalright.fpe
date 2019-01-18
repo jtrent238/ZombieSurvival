@@ -1,0 +1,39 @@
+;Entity Spec
+
+;Header
+desc          = Metal Gate Right (use)
+
+;AI
+aiinit	      = appear1.fpi
+aimain	      = dooruse.fpi
+aidestroy     = disappear1.fpi
+
+;Spawn
+spawnmax      = 0
+spawndelay    = 0
+spawnqty      = 0
+
+;Orientation
+model         = meshbank\M3\Gates\gate_metal_right.X
+offx          = 0
+offy          = 50
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+materialindex = 15
+soundset      = audiobank\m3\OpenWoodenGate.wav
+soundset1     = audiobank\m3\OpenWoodenGate.wav
+
+;Visualinfo
+textured      = texturebank\M3\Gates\Corrigate_gate_D2.TGA
+effect        = 
+transparency  = 2
+
+;Identity Details
+strength      = 0
+isimmobile    = 1
+
+;Animationinfo
+animmax       = 1
+anim0         = 0,30

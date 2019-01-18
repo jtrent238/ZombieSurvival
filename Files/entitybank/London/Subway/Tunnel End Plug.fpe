@@ -1,0 +1,35 @@
+
+;header
+
+desc          = Plug for Subway Tunnel
+;ai
+aiinit	      = appear1.fpi
+aimain	      = default.fpi
+aidestroy     = disappear1.fpi
+
+;spawn
+spawnmax      = 0
+spawndelay    = 0
+spawnqty      = 0
+
+;orientation
+
+model         = Meshbank\London\Subway\ATT_Platform_Tunnel_Plug.x
+offx          = 0
+offy          = 45
+offz          = 0
+rotx          = 0
+roty          = 90
+rotz          = 0
+defaultstatic = 1
+materialindex = 0
+strength      = 0
+collisionmode = 0
+isimmobile    = 1
+
+;visualinfo
+
+textured      = texturebank\London\Subway\TunnelPlug_D2.png
+effect        = 
+castshadow    = 0
+

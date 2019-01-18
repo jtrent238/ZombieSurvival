@@ -1,0 +1,35 @@
+
+;header
+
+desc          = Parade of 3 shops with top housing (A)
+;ai
+aiinit	      = appear1.fpi
+aimain	      = default.fpi
+aidestroy     = disappear1.fpi
+
+;spawn
+spawnmax      = 0
+spawndelay    = 0
+spawnqty      = 0
+
+;orientation
+
+model         = Meshbank\London\Shops\Shop_Parade_1a.x
+offx          = 0
+offy          = 0
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+defaultstatic = 1
+materialindex = 1
+strength      = 0
+collisionmode = 1
+
+
+;visualinfo
+
+textured      = texturebank\London\Shops\Shop_Parade_1a_D2.png
+effect        = 
+castshadow    = 0
+

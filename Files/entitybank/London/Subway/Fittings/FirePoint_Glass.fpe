@@ -1,0 +1,43 @@
+
+;header
+
+desc          = Fire Point Hose Cabinet
+;ai
+aiinit	      = appear1.fpi
+aimain	      = default.fpi
+aidestroy     = destroy\window.fpi
+
+;spawn
+spawnmax      = 0
+spawndelay    = 0
+spawnqty      = 0
+
+;orientation
+
+model         = meshbank\London\Subway\FirePoint_Glass.x
+offx          = 0
+offy          = 0
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+defaultstatic = 0
+materialindex = 5
+collisionmode = 1
+
+;visualinfo
+
+textured      = texturebank\London\Subway\FirePoint_D2.png
+effect        = effectbank\cubeent\cubeent.fx
+transparency  = 2
+
+;identity details
+strength      = 50
+isimmobile    = 1
+
+;Decals
+decalmax      = 1
+decal0        = glass_shatter
+
+;Animationinfo
+animmax       = 0

@@ -1,0 +1,36 @@
+
+;header
+
+desc          = Double Decker Windows
+;ai
+aiinit	      = appear1.fpi
+aimain	      = Nbt\nocoloverlay.fpi
+aidestroy     = disappear1.fpi
+
+;spawn
+spawnmax      = 0
+spawndelay    = 0
+spawnqty      = 0
+
+;orientation
+
+model         = Meshbank\London\Vehicles\Routemaster_DD_Windows.x
+offx          = 0
+offy          = 0
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+defaultstatic = 0
+materialindex = 3
+collisionmode = 1
+scale         = 100
+isimmobile    = 1
+
+;visualinfo
+
+textured      = texturebank\London\Vehicles\Routemaster_D2.png
+;effect        = effectbank\cubeent\cubeent.fx
+transparency  = 1
+castshadow    = 0
+

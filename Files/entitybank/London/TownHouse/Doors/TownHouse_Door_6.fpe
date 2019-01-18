@@ -1,0 +1,39 @@
+
+
+;header
+desc          = Townhouse_Door_6
+
+;ai
+aiinit	      = appear1.fpi
+aimain	      = autodoor.fpi
+aidestroy     = disappear1.fpi
+
+;spawn
+spawnmax      = 0
+spawndelay    = 0
+spawnqty      = 0
+
+;orientation
+model         = meshbank\London\TownHouse\townhouses_door_2.x
+offx          = 0
+offy          = 50
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+materialindex = 3
+soundset      = audiobank\ww2\scenery\doors\open.wav
+soundset1     = audiobank\ww2\scenery\doors\close.wav
+
+;visualinfo
+textured      = texturebank\London\Houses\TownHouse_6_D2.png
+effect        = 
+
+;identity details
+strength      = 0
+isimmobile    = 1
+
+;animationinfo
+animmax       = 1
+anim0         = 0,30
+

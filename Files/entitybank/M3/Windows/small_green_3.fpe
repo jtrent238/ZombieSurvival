@@ -1,0 +1,42 @@
+;Entity Spec
+
+;Header
+
+desc          = Green Small Window 3
+
+;AI
+aimain	      = default.fpi
+aidestroy     = M3\glasssmashmedium.fpi
+
+;Spawn
+spawnmax      = 0
+spawndelay    = 0
+spawnqty      = 0
+
+;Orientation
+model         = meshbank\M3\Windows\small_green03.X
+offx          = 0
+offy          = 50
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+materialindex = 5
+
+;Visualinfo
+textured      = texturebank\M3\Windows\g_win3_D2.TGA
+effect        = effectbank\cubeent\cubeent.fx
+glassstyle    = 3
+transparency  = 2
+
+;identity details
+strength      = 10
+isimmobile    = 1
+
+;Decals
+decalmax      = 1
+decal0        = glass_shatter
+
+;Animationinfo
+animmax       = 0
+

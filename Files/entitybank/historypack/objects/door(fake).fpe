@@ -1,0 +1,38 @@
+;Entity Spec
+
+;Header
+desc          = Door 1 (fake)
+
+;AI
+aiinit	      = appear1.fpi
+aimain	      = doorfake.fpi
+aidestroy     = disappear1.fpi
+
+;Spawn
+spawnmax      = 0
+spawndelay    = 0
+spawnqty      = 0
+
+;Orientation
+model         = meshbank\german\door.x
+offx          = 0
+offy          = 50
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+materialindex = 3
+soundset      = audiobank\user\scenery\doors\lock.wav
+soundset1     = audiobank\user\scenery\doors\close.wav
+
+;Visualinfo
+textured      = meshbank\german\g_door.dds
+effect        = 
+
+;Identity Details
+strength      = 0
+isimmobile    = 1
+
+;Animationinfo
+animmax       = 1
+anim0         = 0,30

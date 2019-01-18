@@ -1,0 +1,39 @@
+
+
+;header
+desc          = TrapFloorSet
+
+;ai
+aiinit	      = appear1.fpi
+aimain	      = doorremote.fpi
+aidestroy     = disappear1.fpi
+
+;spawn
+spawnmax      = 0
+spawndelay    = 0
+spawnqty      = 0
+
+;orientation
+model         = meshbank\London\TheHouse\LoftDoor.x
+offx          = 0
+offy          = -3
+offz          = 0
+rotx          = 0
+roty          = 90
+rotz          = 0
+materialindex = 1
+soundset      = audiobank\London\PortcullisOpen.wav
+soundset1     = audiobank\London\PortcullisClose.wav
+
+;visualinfo
+textured      = texturebank\London\TheHouse\TrapFloor_D2.png
+effect        = 
+
+;identity details
+strength      = 0
+isimmobile    = 1
+
+;animationinfo
+animmax       = 1
+anim0         = 0,40
+

@@ -1,0 +1,35 @@
+
+;header
+
+desc          = Basement Entrance Railings (Right)
+;ai
+aiinit	      = appear1.fpi
+aimain	      = default.fpi
+aidestroy     = disappear1.fpi
+
+;spawn
+spawnmax      = 0
+spawndelay    = 0
+spawnqty      = 0
+
+;orientation
+
+model         = Meshbank\London\TownHouse\Basement_Entry_Railings_R.x
+offx          = 0
+offy          = -2.5
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+defaultstatic = 1
+materialindex = 3
+strength      = 0
+collisionmode = 1
+isimmobile    = 1
+
+;visualinfo
+
+textured      = texturebank\London\Houses\Railings_B_D2.png
+effect        = 
+castshadow    = 0
+

@@ -1,0 +1,37 @@
+
+;header
+
+desc          = Hanging Rag (curtain) 2C
+;ai
+aiinit	      = appear1.fpi
+aimain	      = default.fpi
+aidestroy     = disappear1.fpi
+
+;spawn
+spawnmax      = 0
+spawndelay    = 0
+spawnqty      = 0
+
+;orientation
+
+model         = Meshbank\London\InternalClutter\DirtyWindowRag_2.x
+offx          = 0
+offy          = 0
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+defaultstatic = 1
+materialindex = 3
+strength      = 0
+collisionmode = 1
+isimmobile    = 1
+forwardfacing = 1
+defaultheight = 50
+
+;visualinfo
+
+textured      = texturebank\London\InternalClutter\DirtyBlanket_3_D2.png
+effect        = 
+castshadow    = 0
+

@@ -1,0 +1,52 @@
+;Saved by GameGuru Object Importer v1.000
+;header
+desc             = Wall_broken4
+
+;visualinfo
+textured         = Brick_Ro.jpg
+effect           = effectbank\reloaded\entity_basic.fx
+castshadow       = 0
+transparency     = 0
+
+;orientation
+model            = Wall_broken4.dbo
+offx             = 0
+offy             = 0
+offz             = 0
+rotx             = 0
+roty             = 0
+rotz             = 0
+scale            = 4785
+collisionmode    = 0
+defaultstatic    = 1
+materialindex    = 1
+matrixmode       = 0
+cullmode         = 0
+
+;physics shapes
+physicscount     = 1
+physics0         = "0,2.86725974083,1.95102727413,0.256566494703,0,0,0,0,0,0"
+
+;identity details
+ischaracter      = 0
+hasweapon        = 
+isobjective      = 2
+cantakeweapon    = 0
+
+;statistics
+strength         = 1000
+explodable       = 0
+debrisshape      = 0
+
+;ai
+aimain           = default.lua
+
+;spawn
+spawnmax         = 0
+spawndelay       = 0
+spawnqty         = 0
+
+;anim
+animmax          = 0
+anim0            = 0,0
+playanimineditor = 0
