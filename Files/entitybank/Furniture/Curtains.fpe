@@ -1,0 +1,55 @@
+;Saved by FPSCR Object Importer v1.000
+;header
+desc             = Curtains
+
+;visualinfo
+textured         = curtains_D.dds
+effect           = effectbank\reloaded\entity_basic.fx
+castshadow       = 0
+transparency     = 0
+
+;orientation
+model            = curtains.X
+offx             = 0
+offy             = 0
+offz             = 0
+rotx             = 0
+roty             = 0
+rotz             = 0
+scale            = 100
+collisionmode    = 40
+defaultstatic    = 1
+materialindex    = 2
+forcesimpleobstacle = 3
+
+;physics shapes
+physicscount     = 3
+physics0         = "0,30.3507499695,89.5191802979,2.61751914024,40.8332977295,-19.3696422577,-57.051902771,0,0,0"
+physics1         = "0,4.71153450012,89.5191802979,41.3567962646,55.746925354,-19.3696422577,-37.682258606,0,0,0"
+physics2         = "0,4.71153450012,86.3781585693,86.3781204224,-57.3299026489,-17.7991313934,8.90958118439,0,0,0"
+
+;identity details
+ischaracter      = 0
+hasweapon        = 
+isobjective      = 1
+cantakeweapon    = 0
+
+;statistics
+strength         = 25
+explodable       = 0
+debrisshape      = 1
+
+;ai
+aiinit           = appear.lua
+aimain           = default.lua
+aidestroy        = disappear.lua
+
+;spawn
+spawnmax         = 0
+spawndelay       = 0
+spawnqty         = 0
+
+;anim
+animmax          = 0
+anim0            = 0,0
+playanimineditor = 0

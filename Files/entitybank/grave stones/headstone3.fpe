@@ -1,0 +1,52 @@
+;Saved by GameGuru Object Importer v1.000
+;header
+desc             = headstone3
+
+;visualinfo
+textured         = 1.png
+effect           = effectbank\reloaded\entity_basic.fx
+castshadow       = 0
+transparency     = 0
+
+;orientation
+model            = headstone3.x
+offx             = 0
+offy             = 0
+offz             = 0
+rotx             = 0
+roty             = 0
+rotz             = 0
+scale            = 100
+collisionmode    = 1
+defaultstatic    = 1
+materialindex    = 0
+matrixmode       = 0
+cullmode         = 0
+
+;physics shapes
+physicscount     = 1
+physics0         = "0,30.1362762451,51.1994972229,5.37249708176,0,0,0,0,0,0"
+
+;identity details
+ischaracter      = 0
+hasweapon        = 
+isobjective      = 2
+cantakeweapon    = 0
+
+;statistics
+strength         = 25
+explodable       = 0
+debrisshape      = 0
+
+;ai
+aimain           = default.lua
+
+;spawn
+spawnmax         = 0
+spawndelay       = 0
+spawnqty         = 0
+
+;anim
+animmax          = 0
+anim0            = 0,0
+playanimineditor = 0

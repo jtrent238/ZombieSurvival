@@ -1,0 +1,34 @@
+
+;header
+
+desc          = grass4
+;ai
+aiinit	      = appear2.fpi
+aimain	      = default.fpi
+aidestroy     = disappear1.fpi
+
+;spawn
+spawnmax      = 0
+spawndelay    = 0
+spawnqty      = 0
+
+;orientation
+
+model         = grass.x
+offx          = 0
+offy          = 0
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+defaultstatic = 1
+materialindex = 0
+isimmobile    = 1
+collisionmode = 1001
+
+;visualinfo
+
+textured      = grass4.dds
+transparency  = 3
+effect        = 
+castshadow    = 1

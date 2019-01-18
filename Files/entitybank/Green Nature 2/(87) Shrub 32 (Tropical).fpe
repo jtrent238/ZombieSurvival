@@ -1,0 +1,35 @@
+;header
+
+desc          = Shrub 32 (Tropical)
+;ai
+aiinit	  = appear1.fpi
+aimain	  = default.fpi
+aidestroy     = disappear1.fpi
+
+;spawn
+spawnmax      = 0
+spawndelay    = 0
+spawnqty      = 0
+
+;orientation
+
+model         = shrub32.x
+offx          = 0
+offy          = 0
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+scale         = 100
+defaultstatic = 1
+materialindex = 4
+isimmobile    = 1
+
+collisionmode = 1001
+
+;visualinfo
+
+textured      = shrub32_D2.dds
+transparency  = 3
+effect        = 
+castshadow    = 1

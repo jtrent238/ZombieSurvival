@@ -1,0 +1,37 @@
+;header
+desc          = Pew
+
+;visualinfo
+textured      = pew_D.dds
+effect        = effectbank\reloaded\entity_basic.fx
+castshadow    = 1
+
+;orientation
+model         = pew.x
+offx          = 0
+offy          = 0
+offz          = 0
+rotx          = 0
+roty          = 0
+rotz          = 0
+defaultstatic = 1
+materialindex = 3
+collisionmode = 1
+
+
+;statistics
+strength      = 25
+explodable    = 0
+debrisshape   = 1
+
+;ai
+aiinit	      = appear1.fpi
+aimain	      = default.fpi
+aidestroy     = disappear1.fpi
+
+;spawn
+spawnmax      = 0
+spawndelay    = 0
+spawnqty      = 0
+
+
