@@ -1,6 +1,6 @@
 DO NOT MANUALY EDIT THIS FILE
 1
-1
+3
 0
 mapbank\zombie_survival_level1.fpm
 scriptbank\killcounter.lua
@@ -175,3 +175,12 @@ entitybank\m3\misc\powbox01.fpe
 entitybank\m3\misc\powbox01.dbo
 entitybank\m3\misc\powbox07.fpe
 entitybank\m3\misc\powbox07.dbo
+entitybank\post-apocalyptic model pack\various\book old 1.fpe
+entitybank\post-apocalyptic model pack\various\old_book_1.dbo
+entitybank\post-apocalyptic model pack\various\old_bluebook_d2.dds
+entitybank\post-apocalyptic model pack\various\book old 2.fpe
+entitybank\post-apocalyptic model pack\various\old_book_2.dbo
+entitybank\post-apocalyptic model pack\various\old_greybook_d2.dds
+entitybank\post-apocalyptic model pack\various\plate dirty.fpe
+entitybank\post-apocalyptic model pack\various\plate.dbo
+entitybank\post-apocalyptic model pack\various\plate_dirty_d2.dds
